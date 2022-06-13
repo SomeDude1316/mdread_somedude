@@ -1,0 +1,172 @@
+[
+    {
+        "name": "Charge Beam",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/chargebeam.png",
+        "codes": "charge"
+    },
+    {
+        "name": "Diffusion Beam",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/diffusionbeam.png",
+        "codes": "diffusion"
+    },
+    {
+        "name": "Wide Beam",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/widebeam.png",
+        "codes": "wide"
+    },
+    {
+        "name": "Plasma Beam",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/plasmabeam.png",
+        "codes": "plasma"
+    },
+    {
+        "name": "Wave Beam",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/wavebeam.png",
+        "codes": "wave"
+    },
+    {
+        "name": "Super Missile",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/supermissile.png",
+        "codes": "super"
+    },
+    {
+        "name": "Ice Missile",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/icemissile.png",
+        "codes": "ice"
+    },
+    {
+        "name": "Storm Missile",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/stormmissile.png",
+        "codes": "storm"
+    },
+    {
+        "name": "Varia Suit",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/variasuit.png",
+        "codes": "varia"
+    },
+    {
+        "name": "Gravity Suit",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/gravitysuit.png",
+        "codes": "gravity"
+    },
+    {
+        "name": "Spin Boost",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/spinboost.png",
+        "codes": "spin"
+    },
+    {
+        "name": "Space Jump",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/spaccejump.png",
+        "codes": "space"
+    },
+    {
+        "name": "Morph Ball",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/morphball.png",
+        "codes": "morph"
+    },
+    {
+        "name": "Morph Bomb",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/bomb.png",
+        "codes": "bomb"
+    },
+    {
+        "name": "Cross Bomb",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/crossbomb.png",
+        "codes": "cross"
+    },
+    {
+        "name": "Power Bomb",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/powerbomb.png",
+        "codes": "powerbomb"
+    },
+    {
+        "name": "Slide",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/slide.png",
+        "codes": "slide",
+        "initial_active_state": "true"
+    },
+    {
+        "name": "Spider Magnet",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/spidermagnet.png",
+        "codes": "magnet"
+    },
+    {
+        "name": "Speed Booster",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/speedbooster.png",
+        "codes": "speed"
+    },
+    {
+        "name": "Grapple Beam",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/grapplebeam.png",
+        "codes": "grapple"
+    },
+    {
+        "name": "Screw Attack",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/screwattack.png",
+        "codes": "screw"
+    },
+    {
+        "name": "Phantom Cloak",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/phantomcloak.png",
+        "codes": "phantom"
+    },
+    {
+        "name": "Flash Shift",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/flashshift.png",
+        "codes": "flash"
+    },
+    {
+        "name": "Pulse Radar",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/pulseradar.png",
+        "codes": "radar",
+        "initial_active_state": "true"
+    }
+]
