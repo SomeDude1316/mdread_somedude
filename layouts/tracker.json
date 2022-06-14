@@ -1,0 +1,64 @@
+{
+    "shared_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "6,1",
+                        "h_alignment": "left",
+                        "rows": [
+                            ["charge", "beam", "suit", "missile", "storm"],
+                            ["jump", "morph", "bomb", "cross", "powerbomb"],
+                            ["slide", "magnet", "grapple", "speed", "screw"],
+                            ["", "cloak", "flash", "radar", ""],
+                            ["white", "green", "yellow", "blue", "purple", "red"]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "tracker_default": {
+        "type": "container",
+        "background": "#000000",
+        "content": {
+            "type": "dock",
+            "content": [
+                {
+                    "type": "group",
+                    "header": "Items",
+                    "dock": "top",
+                    "content": {
+                      "type": "layout",
+                      "key": "shared_item_grid"
+                    }
+                }
+            ]
+        }
+    },
+    "tracker_horizontal": {
+        "type": "container",
+        "background": "#000000",
+        "content": [
+            {
+                "type": "group",
+                "header": "Items",
+                "dock": "left",
+                "margin": "0,0,3,0",
+                "content": {
+                  "type": "layout",
+                  "h_alignment": "center",
+                  "v_alignment": "center",
+                  "key": "shared_item_grid"
+                }
+            }
+        ]
+    }
+}

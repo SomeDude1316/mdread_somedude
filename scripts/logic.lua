@@ -1,4 +1,4 @@
--- What does Samus have?
+-- Item Collection
 
 function hasCharge()
     local charge = Tracker:ProviderCountForCode("charge")
@@ -199,24 +199,42 @@ function hasRadar()
     return 0
 end
 
--- What can Samus do?
+-- Bosses Defeated
 
-function heatProof()
-    if hasVaria() == 1 then
+function emmiDefeated(color)
+    local emmi = Tracker:ProviderCountForCode(color)
+    if emmi >= 1 then
         return 1
     end
     return 0
 end
 
+-- Traversal Ability
+
+function heatProof()
+    return hasVaria()
+end
+
+function coldProof()
+    return hasGravity()
+end
+
 function canBomb()
-    if hasRegBombs() == 1 or hasPB() == 1 then
+    if hasMorph() == 1 and (hasRegBombs() == 1 or hasPB()) == 1 then
         return 1
     end
     return 0
 end
 
 function canFly()
-    if hasRegBombs() == 1 or hasSpace() == 1 then
+    if (hasMorph() == 1 and hasRegBombs() == 1) or hasSpace() == 1 then
+        return 1
+    end
+    return 0
+end
+
+function canClimb()
+    if hasMorph() == 1 or hasFlash() == 1 then
         return 1
     end
     return 0
@@ -258,8 +276,22 @@ function canBreakDiffBlobs()
 end
 
 function canGrapple()
-    if hasGrapple() == 1 then
+    return hasGrapple()
+end
+
+function canSSC()
+    if hasFlash() == 1 and hasSpeed() == 1 and hasGrapple() == 1 then
         return 1
     end
     return 0
 end
+
+function canShortBoost()
+    if hasFlash() == 1 and hasSpeed() == 1 then
+        return 1
+    end
+    return 0
+end
+
+--Logic Functions
+

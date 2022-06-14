@@ -38,7 +38,7 @@
 
     {
         "name": "Missile",
-        "type": "progressive",
+        "type": "progressive_toggle",
         "stages": [
             {
                 "img": "images/supermissile.png",
@@ -46,28 +46,12 @@
             },
 
             {
-                "img": "images/diffusionbeam.png",
-                "codes": "charge,charge2,diffusion"
+                "img": "images/icemissile.png",
+                "codes": "missile,missile2,ice"
             }
         ]
     },
-
-    {
-        "name": "Super Missile",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/supermissile.png",
-        "codes": "super"
-    },
-
-    {
-        "name": "Ice Missile",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/icemissile.png",
-        "codes": "ice"
-    },
-
+    
     {
         "name": "Storm Missile",
         "type": "toggle",
@@ -77,35 +61,35 @@
     },
 
     {
-        "name": "Varia Suit",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/variasuit.png",
-        "codes": "varia"
+        "name": "Suit",
+        "type": "progressive_toggle",
+        "stages": [
+            {
+                "img": "images/variasuit.png",
+                "codes": "suit,varia"
+            },
+
+            {
+                "img": "images/gravitysuit.png",
+                "codes": "suit,gravity"
+            }
+        ]
     },
 
     {
-        "name": "Gravity Suit",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/gravitysuit.png",
-        "codes": "gravity"
-    },
+        "name": "Spin Jump",
+        "type": "progressive_toggle",
+        "stages": [
+            {
+                "img": "images/spinboost.png",
+                "codes": "jump,spin"
+            },
 
-    {
-        "name": "Spin Boost",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/spinboost.png",
-        "codes": "spin"
-    },
-
-    {
-        "name": "Space Jump",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/spaccejump.png",
-        "codes": "space"
+            {
+                "img": "images/spacejump.png",
+                "codes": "jump,space"
+            }
+        ]
     },
 
     {
@@ -211,7 +195,7 @@
         "type": "toggle",
         "loop": "true",
         "img": "images/emmiwhite.png",
-        "codes": "emmi,emmi1"
+        "codes": "emmi,emmi1,white"
     },
 
     {
@@ -219,7 +203,7 @@
         "type": "toggle",
         "loop": "true",
         "img": "images/emmigreen.png",
-        "codes": "emmi,emmi2"
+        "codes": "emmi,emmi2,green"
     },
 
     {
@@ -227,7 +211,7 @@
         "type": "toggle",
         "loop": "true",
         "img": "images/emmiyellow.png",
-        "codes": "emmi,emmi3"
+        "codes": "emmi,emmi3,yellow"
     },
 
     {
@@ -235,7 +219,7 @@
         "type": "toggle",
         "loop": "true",
         "img": "images/emmiblue.png",
-        "codes": "emmi,emmi4"
+        "codes": "emmi,emmi4,blue"
     },
 
     {
@@ -243,7 +227,7 @@
         "type": "toggle",
         "loop": "true",
         "img": "images/emmipurple.png",
-        "codes": "emmi,emmi5"
+        "codes": "emmi,emmi5,purple"
     },
 
     {
@@ -251,6 +235,6 @@
         "type": "toggle",
         "loop": "true",
         "img": "images/emmired.png",
-        "codes": "emmi,emmi6"
+        "codes": "emmi,emmi6,red"
     }
 ]
