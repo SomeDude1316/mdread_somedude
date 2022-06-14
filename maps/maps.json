@@ -1,0 +1,34 @@
+[
+    {
+        "name": "artaria",
+        "img": "images/map_artaria.png"
+    },
+    {
+        "name": "burenia",
+        "img": "images/map_burenia.png"
+    },
+    {
+        "name": "cataris",
+        "img": "images/map_cataris.png"
+    },
+    {
+        "name": "dairon",
+        "img": "images/map_dairon.png"
+    },
+    {
+        "name": "elun",
+        "img": "images/map_elun.png"
+    },
+    {
+        "name": "ferenia",
+        "img": "images/map_ferenia.png"
+    },
+    {
+        "name": "ghavoran",
+        "img": "images/map_ghavoran.png"
+    },
+    {
+        "name": "hanubia",
+        "img": "images/map_hanubia.png"
+    }
+]
