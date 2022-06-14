@@ -236,5 +236,21 @@
         "loop": "true",
         "img": "images/boss_red.png",
         "codes": "emmi,emmi6,red"
+    },
+
+    {
+        "name": "Quiet Robe",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/event_qr.png",
+        "codes": "event,qr"
+    },
+
+    {
+        "name": "X Released",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/event_x.png",
+        "codes": "event,x"
     }
 ]

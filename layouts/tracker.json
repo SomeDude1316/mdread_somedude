@@ -73,7 +73,7 @@
                             }
                         },
                         {
-                            "title": "Burenia",
+                            "title": "Cataris",
                             "icon": "images/map_cataris.png",
                             "content": {
                                 "type": "map",
@@ -94,7 +94,7 @@
                         },
                         {
                             "title": "Burenia",
-                            "icon": "images/map_Burenia.png",
+                            "icon": "images/map_burenia.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -198,7 +198,7 @@
                             }
                         },
                         {
-                            "title": "Burenia",
+                            "title": "Cataris",
                             "icon": "images/map_cataris.png",
                             "content": {
                                 "type": "map",
@@ -219,7 +219,7 @@
                         },
                         {
                             "title": "Burenia",
-                            "icon": "images/map_Burenia.png",
+                            "icon": "images/map_burenia.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
