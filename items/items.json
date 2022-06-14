@@ -1,39 +1,57 @@
 [
     {
         "name": "Charge Beam",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/chargebeam.png",
-        "codes": "charge"
+        "type": "progressive_toggle",
+        "stages": [
+            {
+                "img": "images/chargebeam.png",
+                "codes": "charge,charge1"
+            },
+
+            {
+                "img": "images/diffusionbeam.png",
+                "codes": "charge,charge2,diffusion"
+            }
+        ]
     },
+
     {
-        "name": "Diffusion Beam",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/diffusionbeam.png",
-        "codes": "diffusion"
+        "name": "Beam",
+        "type": "progressive_toggle",
+        "stages": [
+            {
+                "img": "images/widebeam.png",
+                "codes": "beam,beam1,wide"
+            },
+            
+            {
+                "img": "images/plasmabeam.png",
+                "codes": "beam,beam2,plasma"
+            },
+            
+            {
+                "img": "images/wavebeam.png",
+                "codes": "beam,beam3,wave"
+            }
+        ]
     },
+
     {
-        "name": "Wide Beam",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/widebeam.png",
-        "codes": "wide"
+        "name": "Missile",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/supermissile.png",
+                "codes": "missile,missile1,super"
+            },
+
+            {
+                "img": "images/diffusionbeam.png",
+                "codes": "charge,charge2,diffusion"
+            }
+        ]
     },
-    {
-        "name": "Plasma Beam",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/plasmabeam.png",
-        "codes": "plasma"
-    },
-    {
-        "name": "Wave Beam",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/wavebeam.png",
-        "codes": "wave"
-    },
+
     {
         "name": "Super Missile",
         "type": "toggle",
@@ -41,6 +59,7 @@
         "img": "images/supermissile.png",
         "codes": "super"
     },
+
     {
         "name": "Ice Missile",
         "type": "toggle",
@@ -48,6 +67,7 @@
         "img": "images/icemissile.png",
         "codes": "ice"
     },
+
     {
         "name": "Storm Missile",
         "type": "toggle",
@@ -55,6 +75,7 @@
         "img": "images/stormmissile.png",
         "codes": "storm"
     },
+
     {
         "name": "Varia Suit",
         "type": "toggle",
@@ -62,6 +83,7 @@
         "img": "images/variasuit.png",
         "codes": "varia"
     },
+
     {
         "name": "Gravity Suit",
         "type": "toggle",
@@ -69,6 +91,7 @@
         "img": "images/gravitysuit.png",
         "codes": "gravity"
     },
+
     {
         "name": "Spin Boost",
         "type": "toggle",
@@ -76,6 +99,7 @@
         "img": "images/spinboost.png",
         "codes": "spin"
     },
+
     {
         "name": "Space Jump",
         "type": "toggle",
@@ -83,6 +107,7 @@
         "img": "images/spaccejump.png",
         "codes": "space"
     },
+
     {
         "name": "Morph Ball",
         "type": "toggle",
@@ -90,6 +115,7 @@
         "img": "images/morphball.png",
         "codes": "morph"
     },
+
     {
         "name": "Morph Bomb",
         "type": "toggle",
@@ -97,6 +123,7 @@
         "img": "images/bomb.png",
         "codes": "bomb"
     },
+
     {
         "name": "Cross Bomb",
         "type": "toggle",
@@ -104,6 +131,7 @@
         "img": "images/crossbomb.png",
         "codes": "cross"
     },
+
     {
         "name": "Power Bomb",
         "type": "toggle",
@@ -111,6 +139,7 @@
         "img": "images/powerbomb.png",
         "codes": "powerbomb"
     },
+
     {
         "name": "Slide",
         "type": "toggle",
@@ -119,6 +148,7 @@
         "codes": "slide",
         "initial_active_state": "true"
     },
+
     {
         "name": "Spider Magnet",
         "type": "toggle",
@@ -126,6 +156,7 @@
         "img": "images/spidermagnet.png",
         "codes": "magnet"
     },
+
     {
         "name": "Speed Booster",
         "type": "toggle",
@@ -133,6 +164,7 @@
         "img": "images/speedbooster.png",
         "codes": "speed"
     },
+
     {
         "name": "Grapple Beam",
         "type": "toggle",
@@ -140,6 +172,7 @@
         "img": "images/grapplebeam.png",
         "codes": "grapple"
     },
+
     {
         "name": "Screw Attack",
         "type": "toggle",
@@ -147,13 +180,15 @@
         "img": "images/screwattack.png",
         "codes": "screw"
     },
+
     {
         "name": "Phantom Cloak",
         "type": "toggle",
         "loop": "true",
         "img": "images/phantomcloak.png",
-        "codes": "phantom"
+        "codes": "cloak"
     },
+
     {
         "name": "Flash Shift",
         "type": "toggle",
@@ -161,6 +196,7 @@
         "img": "images/flashshift.png",
         "codes": "flash"
     },
+
     {
         "name": "Pulse Radar",
         "type": "toggle",
@@ -168,5 +204,53 @@
         "img": "images/pulseradar.png",
         "codes": "radar",
         "initial_active_state": "true"
+    },
+
+    {
+        "name": "White Emmi",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/emmiwhite.png",
+        "codes": "emmi,emmi1"
+    },
+
+    {
+        "name": "Green Emmi",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/emmigreen.png",
+        "codes": "emmi,emmi2"
+    },
+
+    {
+        "name": "Yellow Emmi",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/emmiyellow.png",
+        "codes": "emmi,emmi3"
+    },
+
+    {
+        "name": "Blue Emmi",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/emmiblue.png",
+        "codes": "emmi,emmi4"
+    },
+
+    {
+        "name": "Purple Emmi",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/emmipurple.png",
+        "codes": "emmi,emmi5"
+    },
+
+    {
+        "name": "Red Emmi",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/emmired.png",
+        "codes": "emmi,emmi6"
     }
 ]
