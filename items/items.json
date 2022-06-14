@@ -4,12 +4,12 @@
         "type": "progressive",
         "stages": [
             {
-                "img": "images/chargebeam.png",
+                "img": "images/item_chargebeam.png",
                 "codes": "charge,charge1"
             },
 
             {
-                "img": "images/diffusionbeam.png",
+                "img": "images/item_diffusionbeam.png",
                 "codes": "charge,charge2,diffusion"
             }
         ]
@@ -20,17 +20,17 @@
         "type": "progressive",
         "stages": [
             {
-                "img": "images/widebeam.png",
+                "img": "images/item_widebeam.png",
                 "codes": "beam,beam1,wide"
             },
             
             {
-                "img": "images/plasmabeam.png",
+                "img": "images/item_plasmabeam.png",
                 "codes": "beam,beam2,plasma"
             },
             
             {
-                "img": "images/wavebeam.png",
+                "img": "images/item_wavebeam.png",
                 "codes": "beam,beam3,wave"
             }
         ]
@@ -41,12 +41,12 @@
         "type": "progressive",
         "stages": [
             {
-                "img": "images/supermissile.png",
+                "img": "images/item_supermissile.png",
                 "codes": "missile,missile1,super"
             },
 
             {
-                "img": "images/icemissile.png",
+                "img": "images/item_icemissile.png",
                 "codes": "missile,missile2,ice"
             }
         ]
@@ -56,7 +56,7 @@
         "name": "Storm Missile",
         "type": "toggle",
         "loop": "true",
-        "img": "images/stormmissile.png",
+        "img": "images/item_stormmissile.png",
         "codes": "storm"
     },
 
@@ -65,12 +65,12 @@
         "type": "progressive",
         "stages": [
             {
-                "img": "images/variasuit.png",
+                "img": "images/item_variasuit.png",
                 "codes": "suit,varia"
             },
 
             {
-                "img": "images/gravitysuit.png",
+                "img": "images/item_gravitysuit.png",
                 "codes": "suit,gravity"
             }
         ]
@@ -81,12 +81,12 @@
         "type": "progressive",
         "stages": [
             {
-                "img": "images/spinboost.png",
+                "img": "images/item_spinboost.png",
                 "codes": "jump,spin"
             },
 
             {
-                "img": "images/spacejump.png",
+                "img": "images/item_spacejump.png",
                 "codes": "jump,space"
             }
         ]
@@ -96,7 +96,7 @@
         "name": "Morph Ball",
         "type": "toggle",
         "loop": "true",
-        "img": "images/morphball.png",
+        "img": "images/item_morphball.png",
         "codes": "morph"
     },
 
@@ -104,7 +104,7 @@
         "name": "Morph Bomb",
         "type": "toggle",
         "loop": "true",
-        "img": "images/bomb.png",
+        "img": "images/item_bomb.png",
         "codes": "bomb"
     },
 
@@ -112,7 +112,7 @@
         "name": "Cross Bomb",
         "type": "toggle",
         "loop": "true",
-        "img": "images/crossbomb.png",
+        "img": "images/item_crossbomb.png",
         "codes": "cross"
     },
 
@@ -120,7 +120,7 @@
         "name": "Power Bomb",
         "type": "toggle",
         "loop": "true",
-        "img": "images/powerbomb.png",
+        "img": "images/item_powerbomb.png",
         "codes": "powerbomb"
     },
 
@@ -128,7 +128,7 @@
         "name": "Slide",
         "type": "toggle",
         "loop": "true",
-        "img": "images/slide.png",
+        "img": "images/item_slide.png",
         "codes": "slide",
         "initial_active_state": "true"
     },
@@ -137,7 +137,7 @@
         "name": "Spider Magnet",
         "type": "toggle",
         "loop": "true",
-        "img": "images/spidermagnet.png",
+        "img": "images/item_spidermagnet.png",
         "codes": "magnet"
     },
 
@@ -145,7 +145,7 @@
         "name": "Speed Booster",
         "type": "toggle",
         "loop": "true",
-        "img": "images/speedbooster.png",
+        "img": "images/item_speedbooster.png",
         "codes": "speed"
     },
 
@@ -153,7 +153,7 @@
         "name": "Grapple Beam",
         "type": "toggle",
         "loop": "true",
-        "img": "images/grapplebeam.png",
+        "img": "images/item_grapplebeam.png",
         "codes": "grapple"
     },
 
@@ -161,7 +161,7 @@
         "name": "Screw Attack",
         "type": "toggle",
         "loop": "true",
-        "img": "images/screwattack.png",
+        "img": "images/item_screwattack.png",
         "codes": "screw"
     },
 
@@ -169,7 +169,7 @@
         "name": "Phantom Cloak",
         "type": "toggle",
         "loop": "true",
-        "img": "images/phantomcloak.png",
+        "img": "images/item_phantomcloak.png",
         "codes": "cloak"
     },
 
@@ -177,7 +177,7 @@
         "name": "Flash Shift",
         "type": "toggle",
         "loop": "true",
-        "img": "images/flashshift.png",
+        "img": "images/item_flashshift.png",
         "codes": "flash"
     },
 
@@ -185,7 +185,7 @@
         "name": "Pulse Radar",
         "type": "toggle",
         "loop": "true",
-        "img": "images/pulseradar.png",
+        "img": "images/item_pulseradar.png",
         "codes": "radar",
         "initial_active_state": "true"
     },
@@ -194,7 +194,7 @@
         "name": "White Emmi",
         "type": "toggle",
         "loop": "true",
-        "img": "images/emmiwhite.png",
+        "img": "images/boss_white.png",
         "codes": "emmi,emmi1,white"
     },
 
@@ -202,7 +202,7 @@
         "name": "Green Emmi",
         "type": "toggle",
         "loop": "true",
-        "img": "images/emmigreen.png",
+        "img": "images/boss_green.png",
         "codes": "emmi,emmi2,green"
     },
 
@@ -210,7 +210,7 @@
         "name": "Yellow Emmi",
         "type": "toggle",
         "loop": "true",
-        "img": "images/emmiyellow.png",
+        "img": "images/boss_yellow.png",
         "codes": "emmi,emmi3,yellow"
     },
 
@@ -218,7 +218,7 @@
         "name": "Blue Emmi",
         "type": "toggle",
         "loop": "true",
-        "img": "images/emmiblue.png",
+        "img": "images/boss_blue.png",
         "codes": "emmi,emmi4,blue"
     },
 
@@ -226,7 +226,7 @@
         "name": "Purple Emmi",
         "type": "toggle",
         "loop": "true",
-        "img": "images/emmipurple.png",
+        "img": "images/boss_purple.png",
         "codes": "emmi,emmi5,purple"
     },
 
@@ -234,7 +234,7 @@
         "name": "Red Emmi",
         "type": "toggle",
         "loop": "true",
-        "img": "images/emmired.png",
+        "img": "images/boss_red.png",
         "codes": "emmi,emmi6,red"
     }
 ]
