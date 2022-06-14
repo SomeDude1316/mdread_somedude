@@ -1,0 +1,64 @@
+[
+    {
+        "name": "All Locations",
+        "children": [
+            {
+                "name": "Artaria",
+                "color": "#d4d6d6",
+                "children": [
+                    {
+                        "name": "Major Items",
+                        "chest_unopened_img": "images/major_unopened.png",
+                        "chest_opened_img": "images/major_opened.png",
+                        "children": [
+                            {
+                                "name": "Charge Beam",
+                                "map_locations": [
+                                    {
+                                        "map": "artaria",
+                                        "x": "858",
+                                        "y": "926"
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Major Item",
+                                        "item_count": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Cataris",
+                "color": "#c63923"
+            },
+            {
+                "name": "Dairon",
+                "color": "#ddcd1a"
+            },
+            {
+                "name": "Burenia",
+                "color": "#1addd0"
+            },
+            {
+                "name": "Ghavoran",
+                "color": "#2bbc35"
+            },
+            {
+                "name": "Elun",
+                "color": "#1634cc"
+            },
+            {
+                "name": "Ferenia",
+                "color": "#dd9311"
+            },
+            {
+                "name": "Hanubia",
+                "color": "#851bd6"
+            }
+        ]
+    }
+]
