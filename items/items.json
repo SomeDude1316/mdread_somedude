@@ -1,7 +1,7 @@
 [
     {
         "name": "Charge Beam",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "stages": [
             {
                 "img": "images/chargebeam.png",
@@ -17,7 +17,7 @@
 
     {
         "name": "Beam",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "stages": [
             {
                 "img": "images/widebeam.png",
@@ -38,7 +38,7 @@
 
     {
         "name": "Missile",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "stages": [
             {
                 "img": "images/supermissile.png",
@@ -62,7 +62,7 @@
 
     {
         "name": "Suit",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "stages": [
             {
                 "img": "images/variasuit.png",
@@ -78,7 +78,7 @@
 
     {
         "name": "Spin Jump",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "stages": [
             {
                 "img": "images/spinboost.png",
