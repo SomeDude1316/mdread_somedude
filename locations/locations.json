@@ -108,7 +108,7 @@
                                 ]
                             },
                             {
-                                "name": "White Emmi",
+                                "name": "White EMMI",
                                 "access_rules": ["charge,magnet", "charge,$canClimb"],
                                 "map_locations": [
                                     {
@@ -122,6 +122,40 @@
                                         "name": "Major Item",
                                         "item_count": 0,
                                         "hosted_item": "white"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Energy Tank (Charge Tutorial)",
+                                "access_rules": ["charge"],
+                                "map_locations": [
+                                    {
+                                        "map": "artaria",
+                                        "x": 1594,
+                                        "y": 928
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Major Item",
+                                        "item_count": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Energy Tank (Varia Speed Puzzle)",
+                                "access_rules": ["charge,$canBomb,varia,speed,grapple","{charge,$canBomb,speed,grapple}"],
+                                "map_locations": [
+                                    {
+                                        "map": "artaria",
+                                        "x": 513,
+                                        "y": 90
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Major Item",
+                                        "item_count": 1
                                     }
                                 ]
                             }
@@ -156,6 +190,151 @@
                                         "map": "artaria",
                                         "x": 1865,
                                         "y": 603
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Minor Item",
+                                        "item_count": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Missile (Above Elaine)",
+                                "access_rules": [
+                                    "$canBomb,flash",
+                                    "$canBomb,jump",
+                                    "$canBomb,speed"
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "artaria",
+                                        "x": 1967,
+                                        "y": 584
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Minor Item",
+                                        "item_count": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Missile+ (Varia)",
+                                "access_rules": [
+                                    "charge,varia,morph,etank:2",
+                                    "charge,morph,gravity",
+                                    "{charge,morph}"
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "artaria",
+                                        "x": 898,
+                                        "y": 161
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Minor Item",
+                                        "item_count": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Missile (Varia Super Missile Door)",
+                                "access_rules": [
+                                    "$canBomb,charge,missile",
+                                    "[charge,morph,$canSSC]"
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "artaria",
+                                        "x": 723,
+                                        "y": 319
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Minor Item",
+                                        "item_count": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Missile (Waterass)",
+                                "map_locations": [
+                                    {
+                                        "map": "artaria",
+                                        "x": 579,
+                                        "y": 529
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Minor Item",
+                                        "item_count": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Missile (Below Red Teleportal)",
+                                "access_rules": ["morph"],
+                                "map_locations": [
+                                    {
+                                        "map": "artaria",
+                                        "x": 780,
+                                        "y": 494
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Minor Item",
+                                        "item_count": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Missile+ (Speedway)",
+                                "access_rules": ["speed"],
+                                "map_locations": [
+                                    {
+                                        "map": "artaria",
+                                        "x": 796,
+                                        "y": 821
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Minor Item",
+                                        "item_count": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Energy Part (Speedway)",
+                                "map_locations": [
+                                    {
+                                        "map": "artaria",
+                                        "x": 651,
+                                        "y": 830
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Minor Item",
+                                        "item_count": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Missile (From Speedway)",
+                                "access_rules": ["speed,$canBomb","$canPowerBomb","[$canSSC]"],
+                                "map_locations": [
+                                    {
+                                        "map": "artaria",
+                                        "x": 936,
+                                        "y": 902
                                     }
                                 ],
                                 "sections": [

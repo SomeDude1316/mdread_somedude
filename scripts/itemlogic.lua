@@ -15,7 +15,7 @@ end
 -- Traversal Ability
 
 function canHellRun(num)
-    if hasItem("varia") or countTanks() >= tonumber(num) then
+    if hasItem("suit") or countTanks() >= tonumber(num) then
         return 1
     end
     return 0
