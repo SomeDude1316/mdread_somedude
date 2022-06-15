@@ -45,6 +45,23 @@
                                 ]
                             },
                             {
+                                "name": "Varia Suit",
+                                "access_rules": ["charge,morph,varia","{charge,morph}"],
+                                "map_locations": [
+                                    {
+                                        "map": "artaria",
+                                        "x": 790,
+                                        "y": 62
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Major Item",
+                                        "item_count": 1
+                                    }
+                                ]
+                            },
+                            {
                                 "name": "Grapple Beam",
                                 "access_rules": [
                                     "speed,grapple",
@@ -69,12 +86,12 @@
                             {
                                 "name": "Screw Attack",
                                 "access_rules": [
-                                    "morph,varia,[$canSSC],screw",
-                                    "grapple,$canColdRun|3,[diffusion],screw",
-                                    "$canColdRun|3,$missing|gravity,$canWBJ,$canWSJ,screw",
+                                    "[morph,varia,screw,$canSSC]",
+                                    "morph,grapple,$canColdRun|3,screw,[diffusion]",
+                                    "morph,$canColdRun|3,$missing|gravity,$canWBJ,$canWSJ,screw",
                                     "{morph,varia,$canSSC}",
-                                    "{grapple,$canColdRun|3,diffusion}",
-                                    "{$canColdRun|3,$missing|gravity,$canWBJ,$canWSJ}"
+                                    "{morph,grapple,$canColdRun|3,diffusion}",
+                                    "{morph,$canColdRun|3,$missing|gravity,$canWBJ,$canWSJ}"
                                 ],
                                 "map_locations": [
                                     {
