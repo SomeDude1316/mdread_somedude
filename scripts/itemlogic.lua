@@ -9,21 +9,20 @@ function missing(item)
 end
 
 function countTanks()
-    print("Etanks: " .. (Tracker:ProviderCountForCode("etank") + (Tracker:ProviderCountForCode("epart") / 4)))
     return Tracker:ProviderCountForCode("etank") + (Tracker:ProviderCountForCode("epart") / 4)
 end
 
 -- Traversal Ability
 
 function canHellRun(num)
-    if hasItem("varia") or countTanks() >= num then
+    if hasItem("varia") or countTanks() >= tonumber(num) then
         return 1
     end
     return 0
 end
 
 function canColdRun(num)
-    if hasItem("gravity") or countTanks() >= num then
+    if hasItem("gravity") or countTanks() >= tonumber(num) then
         return 1
     end
     return 0
