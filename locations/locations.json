@@ -29,7 +29,7 @@
                             },
                             {
                                 "name": "Corpius",
-                                "access_rules": ["spider", "cloak", "[]"],
+                                "access_rules": ["magnet", "cloak", "[]"],
                                 "map_locations": [
                                     {
                                         "map": "artaria",
@@ -329,7 +329,11 @@
                             },
                             {
                                 "name": "Missile (From Speedway)",
-                                "access_rules": ["speed,$canBomb","$canPowerBomb","$canSSC,[]"],
+                                "access_rules": [
+                                    "speed,$canBomb",
+                                    "$canPowerBomb",
+                                    "[$canSSC]"
+                                ],
                                 "map_locations": [
                                     {
                                         "map": "artaria",

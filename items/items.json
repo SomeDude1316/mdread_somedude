@@ -5,12 +5,12 @@
         "stages": [
             {
                 "img": "images/item_chargebeam.png",
-                "codes": "charge,charge1"
+                "codes": "charge"
             },
 
             {
                 "img": "images/item_diffusionbeam.png",
-                "codes": "charge,charge2,diffusion"
+                "codes": "charge,diffusion"
             }
         ]
     },
@@ -21,17 +21,17 @@
         "stages": [
             {
                 "img": "images/item_widebeam.png",
-                "codes": "beam,beam1,wide"
+                "codes": "beam,wide"
             },
             
             {
                 "img": "images/item_plasmabeam.png",
-                "codes": "beam,beam2,plasma"
+                "codes": "beam,wide,plasma"
             },
             
             {
                 "img": "images/item_wavebeam.png",
-                "codes": "beam,beam3,wave"
+                "codes": "beam,wide,plasma,wave"
             }
         ]
     },
@@ -42,12 +42,12 @@
         "stages": [
             {
                 "img": "images/item_supermissile.png",
-                "codes": "missile,missile1,super"
+                "codes": "missile,super"
             },
 
             {
                 "img": "images/item_icemissile.png",
-                "codes": "missile,missile2,ice"
+                "codes": "missile,ice"
             }
         ]
     },
@@ -121,7 +121,7 @@
         "type": "toggle",
         "loop": "true",
         "img": "images/item_powerbomb.png",
-        "codes": "powerbomb"
+        "codes": "powerbomb,pb"
     },
 
     {
@@ -138,7 +138,7 @@
         "type": "toggle",
         "loop": "true",
         "img": "images/item_spidermagnet.png",
-        "codes": "magnet"
+        "codes": "spider,magnet"
     },
 
     {
@@ -211,7 +211,7 @@
         "type": "toggle",
         "loop": "true",
         "img": "images/boss_white.png",
-        "codes": "emmi,emmi1,white"
+        "codes": "emmi,white"
     },
 
     {
@@ -219,7 +219,7 @@
         "type": "toggle",
         "loop": "true",
         "img": "images/boss_green.png",
-        "codes": "emmi,emmi2,green"
+        "codes": "emmi,green"
     },
 
     {
@@ -227,7 +227,7 @@
         "type": "toggle",
         "loop": "true",
         "img": "images/boss_yellow.png",
-        "codes": "emmi,emmi3,yellow"
+        "codes": "emmi,yellow"
     },
 
     {
@@ -235,7 +235,7 @@
         "type": "toggle",
         "loop": "true",
         "img": "images/boss_blue.png",
-        "codes": "emmi,emmi4,blue"
+        "codes": "emmi,blue"
     },
 
     {
@@ -243,7 +243,7 @@
         "type": "toggle",
         "loop": "true",
         "img": "images/boss_purple.png",
-        "codes": "emmi,emmi5,purple"
+        "codes": "emmi,purple"
     },
 
     {
@@ -251,7 +251,7 @@
         "type": "toggle",
         "loop": "true",
         "img": "images/boss_red.png",
-        "codes": "emmi,emmi6,red"
+        "codes": "emmi,red"
     },
 
     {
