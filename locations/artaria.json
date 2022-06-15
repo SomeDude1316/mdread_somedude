@@ -83,11 +83,11 @@
                     "name": "Screw Attack",
                     "access_rules": [
                         "$canWBJ,suit,$canSSC,screw,[plasma]",
-                        "morph,grapple,gravity,jump,screw,[$canBreakDiffBlocks]",
-                        "morph,$canColdRun|2,$canWBJ,$canWSJ,screw,[$canBreakDiffBlocks]",
+                        "morph,grapple,gravity,jump,screw,[$canBreakDiffBlobs]",
+                        "morph,$canColdRun|2,$canWBJ,$canWSJ,screw,[$canBreakDiffBlobs]",
                         "{morph,suit,$canSSC}",
-                        "{morph,grapple,gravity,$canBreakDiffBlocks}",
-                        "{morph,$canColdRun|2,$canWBJ,$canWSJ,$canBreakDiffBlocks}"
+                        "{morph,grapple,gravity,$canBreakDiffBlobs}",
+                        "{morph,$canColdRun|2,$canWBJ,$canWSJ,$canBreakDiffBlobs}"
                     ],
                     "map_locations": [
                         {
@@ -554,9 +554,9 @@
                 {
                     "name": "Missile (Screw Attack Waterway)",
                     "access_rules": [
-                        "suit,$canSSC,screw,$canBreakDiffBlocks,[plasma]",
-                        "$canBomb,grapple,$canColdRun|2,[$canBreakDiffBlocks]",
-                        "$transportArt,screw,[$canBreakDiffBlocks]"
+                        "suit,$canSSC,screw,$canBreakDiffBlobs,[plasma]",
+                        "$canBomb,grapple,$canColdRun|2,[$canBreakDiffBlobs]",
+                        "$transportArt,screw,[$canBreakDiffBlobs]"
                     ],
                     "map_locations": [
                         {
@@ -576,11 +576,11 @@
                     "name": "Missile (Above Screw Attack)",
                     "access_rules": [
                         "$canWBJ,suit,$canSSC,screw,[plasma]",
-                        "morph,grapple,gravity,jump,screw,[$canBreakDiffBlocks]",
-                        "morph,$canColdRun|2,$canWBJ,$canWSJ,screw,[$canBreakDiffBlocks]",
+                        "morph,grapple,gravity,jump,screw,[$canBreakDiffBlobs]",
+                        "morph,$canColdRun|2,$canWBJ,$canWSJ,screw,[$canBreakDiffBlobs]",
                         "{morph,suit,$canSSC}",
-                        "{morph,grapple,gravity,$canBreakDiffBlocks}",
-                        "{morph,$canColdRun|3,$canWBJ,$canWSJ,$canBreakDiffBlocks}"
+                        "{morph,grapple,gravity,$canBreakDiffBlobs}",
+                        "{morph,$canColdRun|3,$canWBJ,$canWSJ,$canBreakDiffBlobs}"
                     ],
                     "map_locations": [
                         {

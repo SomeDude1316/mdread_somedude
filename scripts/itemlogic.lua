@@ -50,7 +50,7 @@ function canAnyBomb()
 end
 
 function canWBJ()
-    if hasItem("morph") and hasItem("bomb") and missing("gravity") then
+    if hasItem("morph") and hasItem("bomb") then
         return 1
     end
     return 0
