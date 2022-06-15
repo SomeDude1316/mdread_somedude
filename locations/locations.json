@@ -47,10 +47,10 @@
                             {
                                 "name": "Grapple Beam",
                                 "access_rules": [
-                                    "speed,{grapple}",
-                                    "morph,varia,beam,$canOpenChargeDoors,{grapple}",
-                                    "varia,$canShortBoost,$canOpenChargeDoors,{grapple}",
-                                    "morph,varia,speed,$canOpenChargeDoors,{grapple}"
+                                    "speed,grapple",
+                                    "morph,varia,beam,$canOpenChargeDoors,grapple",
+                                    "{speed}",
+                                    "{morph,varia,beam,$canOpenChargeDoors}"
                                 ],
                                 "map_locations": [
                                     {
@@ -69,8 +69,12 @@
                             {
                                 "name": "Screw Attack",
                                 "access_rules": [
-                                    "[varia,$canSSC,screw]",
-                                    "grapple,$canColdRun|3,screw,[diffusion]"
+                                    "morph,varia,[$canSSC],screw",
+                                    "grapple,$canColdRun|3,[diffusion],screw",
+                                    "$canColdRun|3,$missing|gravity,$canWBJ,$canWSJ,screw",
+                                    "{morph,varia,$canSSC}",
+                                    "{grapple,$canColdRun|3,diffusion}",
+                                    "{$canColdRun|3,$missing|gravity,$canWBJ,$canWSJ}"
                                 ],
                                 "map_locations": [
                                     {
@@ -85,6 +89,24 @@
                                         "item_count": 1
                                     }
                                 ]
+                            },
+                            {
+                                "name": "White Emmi",
+                                "access_rules": ["charge,magnet", "charge,$canClimb"],
+                                "map_locations": [
+                                    {
+                                        "map": "artaria",
+                                        "x": 1638,
+                                        "y": 711
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Major Item",
+                                        "item_count": 1,
+                                        "hosted_item": "white"
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -95,12 +117,28 @@
                         "children": [
                             {
                                 "name": "Missile (Melee Tutorial)",
-                                "access_rules": ["$canFly", "{}"],
+                                "access_rules": ["morph,$canFly", "{}"],
                                 "map_locations": [
                                     {
                                         "map": "artaria",
                                         "x": 1740,
                                         "y": 660
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Minor Item",
+                                        "item_count": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Missile (Fallen Rocks)",
+                                "map_locations": [
+                                    {
+                                        "map": "artaria",
+                                        "x": 1865,
+                                        "y": 603
                                     }
                                 ],
                                 "sections": [
