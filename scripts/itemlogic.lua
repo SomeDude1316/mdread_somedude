@@ -63,6 +63,13 @@ function canWSJ()
     return 0
 end
 
+function canUseMagnets()
+    if hasItem("magnet") or hasItem("grapple") then
+        return 1
+    end
+    return 0
+end
+
 function canFly()
     if canBomb() > 0 or hasItem("space") then
         return 1
@@ -72,6 +79,13 @@ end
 
 function canClimb()
     if hasItem("morph") or hasItem("flash") or canFly() > 0 then
+        return 1
+    end
+    return 0
+end
+
+function canMagnetClimb()
+    if canUseMagnets() > 0 or canClimb() > 0 then
         return 1
     end
     return 0
