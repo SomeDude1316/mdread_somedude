@@ -1,49 +1,49 @@
 [
     {
         "name": "artaria",
-        "location_size": 40,
+        "location_size": 35,
         "location_border_thickness": 5,
         "img": "images/map_artaria.png"
     },
     {
         "name": "burenia",
-        "location_size": 40,
+        "location_size": 35,
         "location_border_thickness": 5,
         "img": "images/map_burenia.png"
     },
     {
         "name": "cataris",
-        "location_size": 40,
+        "location_size": 35,
         "location_border_thickness": 5,
         "img": "images/map_cataris.png"
     },
     {
         "name": "dairon",
-        "location_size": 40,
+        "location_size": 35,
         "location_border_thickness": 5,
         "img": "images/map_dairon.png"
     },
     {
         "name": "elun",
-        "location_size": 40,
+        "location_size": 35,
         "location_border_thickness": 5,
         "img": "images/map_elun.png"
     },
     {
         "name": "ferenia",
-        "location_size": 40,
+        "location_size": 35,
         "location_border_thickness": 5,
         "img": "images/map_ferenia.png"
     },
     {
         "name": "ghavoran",
-        "location_size": 40,
+        "location_size": 35,
         "location_border_thickness": 5,
         "img": "images/map_ghavoran.png"
     },
     {
         "name": "hanubia",
-        "location_size": 40,
+        "location_size": 35,
         "location_border_thickness": 5,
         "img": "images/map_hanubia.png"
     }

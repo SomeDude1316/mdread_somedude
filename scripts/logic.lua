@@ -52,7 +52,10 @@ function canClimb()
 end
 
 function canOpenChargeDoors()
-    return Tracker:ProviderCountForCode("charge")
+    if Tracker:ProviderCountForCode("charge") > 0 or Tracker:ProviderCountForCode("pb") > 0 then
+        return 1
+    end
+    return 0
 end
 
 function canOpenGreenDoors()
@@ -85,7 +88,7 @@ function canShortBoost()
 end
 
 function canSSC()
-    if canShortBoost() and Tracker:ProviderCountForCode("grapple") > 0 > 0 then
+    if canShortBoost() and Tracker:ProviderCountForCode("grapple") > 0 then
         return 1
     end
     return 0
