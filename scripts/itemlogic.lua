@@ -1,7 +1,7 @@
 -- Item Collection
 
 function hasItem(item)
-    return Tracker:ProviderCountForCode(item) > 0 
+    return Tracker:ProviderCountForCode(item) > 0
 end
 
 function missing(item)

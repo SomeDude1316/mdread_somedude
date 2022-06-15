@@ -1,6 +1,7 @@
 -- Load items and layout
 ScriptHost:LoadScript("scripts/settings.lua")
-ScriptHost:LoadScript("scripts/logic.lua")
+ScriptHost:LoadScript("scripts/itemlogic.lua")
+ScriptHost:LoadScript("scripts/arealogic.lua")
 
 Tracker:AddItems("items/items.json")
 Tracker:AddMaps("maps/maps.json")
