@@ -103,6 +103,8 @@
                                 "sections": [
                                     {
                                         "name": "Major Item",
+                                        "chest_unopened_img": "",
+                                        "chest_opened_img": "",
                                         "item_count": 1,
                                         "hosted_item": "white"
                                     }
