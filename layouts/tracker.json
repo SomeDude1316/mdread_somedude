@@ -61,6 +61,7 @@
                 },
                 {
                     "type": "tabbed",
+                    "background": "#0c151c",
                     "tabs": [
                         {
                             "title": "Artaria",
