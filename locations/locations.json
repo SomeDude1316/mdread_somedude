@@ -224,6 +224,22 @@
                                 ]
                             },
                             {
+                                "name": "Missile (Cloak Door)",
+                                "map_locations": [
+                                    {
+                                        "map": "artaria",
+                                        "x": 1919,
+                                        "y": 418
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Minor Item",
+                                        "item_count": 1
+                                    }
+                                ]
+                            },
+                            {
                                 "name": "Missile+ (Varia)",
                                 "access_rules": [
                                     "$canOpenChargeDoors,varia,morph,etank:2",
@@ -446,7 +462,7 @@
                             },
                             {
                                 "name": "Missile (EMMI Zone Intro)",
-                                "access_rules": ["$canUseMagnets", "$canClimb", "{}"],
+                                "access_rules": ["$canUseMagnets", "$canClimb", "[]"],
                                 "map_locations": [
                                     {
                                         "map": "artaria",
@@ -470,8 +486,8 @@
                                 "map_locations": [
                                     {
                                         "map": "artaria",
-                                        "x": 1860,
-                                        "y": 384
+                                        "x": 1304,
+                                        "y": 366
                                     }
                                 ],
                                 "sections": [
@@ -487,8 +503,8 @@
                                 "map_locations": [
                                     {
                                         "map": "artaria",
-                                        "x": 1648,
-                                        "y": 354
+                                        "x": 1294,
+                                        "y": 604
                                     }
                                 ],
                                 "sections": [
@@ -544,7 +560,7 @@
                                 "access_rules": [
                                     "suit,$canSSC,screw,$canBreakDiffBlocks,[plasma]",
                                     "$canBomb,grapple,$canColdRun|2,[$canBreakDiffBlocks]",
-                                    "$transportArtBur,screw,[$canBreakDiffBlocks]"
+                                    "$transportArt,screw,[$canBreakDiffBlocks]"
                                 ],
                                 "map_locations": [
                                     {
@@ -575,6 +591,23 @@
                                         "map": "artaria",
                                         "x": 296,
                                         "y": 597
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Minor Item",
+                                        "item_count": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Missile (Twin Pools)",
+                                "access_rules": ["jump", "$canMagnetClimb"],
+                                "map_locations": [
+                                    {
+                                        "map": "artaria",
+                                        "x": 1010,
+                                        "y": 813
                                     }
                                 ],
                                 "sections": [
