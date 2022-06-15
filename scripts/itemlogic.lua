@@ -9,6 +9,7 @@ function missing(item)
 end
 
 function countTanks()
+    print("Etanks: " .. (Tracker:ProviderCountForCode("etank") + (Tracker:ProviderCountForCode("epart") / 4)))
     return Tracker:ProviderCountForCode("etank") + (Tracker:ProviderCountForCode("epart") / 4)
 end
 
