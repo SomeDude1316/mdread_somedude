@@ -71,7 +71,7 @@ function canClimb()
 end
 
 function canOpenChargeDoors()
-    if hasItem("charge") or canPowerBomb() then
+    if hasItem("charge") or canPowerBomb() > 0 then
         return 1
     end
     return 0
@@ -92,7 +92,7 @@ function canOpenWideDoors()
 end
 
 function canMoveWideBlocks()
-    if canOpenWideDoors() and hasItem("charge") then
+    if canOpenWideDoors() > 0 and hasItem("charge") then
         return 1
     end
     return 0
@@ -113,7 +113,7 @@ function canShortBoost()
 end
 
 function canSSC()
-    if canShortBoost() and hasItem("grapple") then
+    if canShortBoost() > 0 and hasItem("grapple") then
         return 1
     end
     return 0
