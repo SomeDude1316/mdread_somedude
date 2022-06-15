@@ -86,8 +86,8 @@
                             {
                                 "name": "Screw Attack",
                                 "access_rules": [
-                                    "$canWBJ,suit,$canSSC,screw,[grapple,plasma]",
-                                    "morph,grapple,$canColdRun|3,screw,[diffusion]",
+                                    "$canWBJ,suit,$canSSC,screw,[plasma]",
+                                    "morph,grapple,gravity,screw,[diffusion]",
                                     "morph,$canColdRun|3,$canWBJ,$canWSJ,screw",
                                     "{morph,suit,$canSSC}",
                                     "{morph,grapple,$canColdRun|3,diffusion}",
