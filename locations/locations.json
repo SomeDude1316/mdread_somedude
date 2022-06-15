@@ -26,6 +26,23 @@
                                         "item_count": 1
                                     }
                                 ]
+                            },
+                            {
+                                "name": "Corpius",
+                                "access_rules": ["charge", "spider", "cloak", "[]"],
+                                "map_locations": [
+                                    {
+                                        "map": "artaria",
+                                        "x": 2102,
+                                        "y": 518
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Major Item",
+                                        "item_count": 1
+                                    }
+                                ]
                             }
                         ]
                     }
