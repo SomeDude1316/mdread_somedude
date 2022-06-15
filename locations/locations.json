@@ -86,12 +86,12 @@
                             {
                                 "name": "Screw Attack",
                                 "access_rules": [
-                                    "[morph,varia,screw,$canSSC]",
+                                    "morph,varia,screw,$canSSC,[grapple,plasma]",
                                     "morph,grapple,$canColdRun|3,screw,[diffusion]",
-                                    "morph,$canColdRun|3,$missing|gravity,$canWBJ,$canWSJ,screw",
+                                    "morph,$canColdRun|3,$canWBJ,$canWSJ,screw",
                                     "{morph,varia,$canSSC}",
                                     "{morph,grapple,$canColdRun|3,diffusion}",
-                                    "{morph,$canColdRun|3,$missing|gravity,$canWBJ,$canWSJ}"
+                                    "{morph,$canColdRun|3,$canWBJ,$canWSJ}"
                                 ],
                                 "map_locations": [
                                     {
@@ -332,7 +332,7 @@
                                 "access_rules": [
                                     "speed,$canBomb",
                                     "$canPowerBomb",
-                                    "[$canSSC]"
+                                    "$canSSC,[$canAnyBomb]"
                                 ],
                                 "map_locations": [
                                     {
