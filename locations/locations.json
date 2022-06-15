@@ -202,9 +202,9 @@
                             {
                                 "name": "Missile (Above Elaine)",
                                 "access_rules": [
-                                    "$canBomb,flash",
-                                    "$canBomb,jump",
-                                    "$canBomb,speed"
+                                    "$canAnyBomb,flash",
+                                    "$canAnyBomb,jump",
+                                    "$canAnyBomb,speed"
                                 ],
                                 "map_locations": [
                                     {
@@ -244,8 +244,8 @@
                             {
                                 "name": "Missile (Varia Super Missile Door)",
                                 "access_rules": [
-                                    "$canBomb,charge,missile",
-                                    "[charge,morph,$canSSC]"
+                                    "morph,charge,missile",
+                                    "charge,morph,[$canSSC]"
                                 ],
                                 "map_locations": [
                                     {
@@ -329,7 +329,7 @@
                             },
                             {
                                 "name": "Missile (From Speedway)",
-                                "access_rules": ["speed,$canBomb","$canPowerBomb","[$canSSC]"],
+                                "access_rules": ["speed,$canBomb","$canPowerBomb","$canSSC,[]"],
                                 "map_locations": [
                                     {
                                         "map": "artaria",

@@ -42,6 +42,13 @@ function canPowerBomb()
     return 0
 end
 
+function canAnyBomb()
+    if canBomb() > 0 or canPowerBomb() > 0 then
+        return 1
+    end
+    return 0
+end
+
 function canWBJ()
     if hasItem("morph") and hasItem("bomb") and missing("gravity") then
         return 1
