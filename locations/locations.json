@@ -29,12 +29,54 @@
                             },
                             {
                                 "name": "Corpius",
-                                "access_rules": ["charge", "spider", "cloak", "[]"],
+                                "access_rules": ["spider", "cloak", "[]"],
                                 "map_locations": [
                                     {
                                         "map": "artaria",
                                         "x": 2102,
                                         "y": 518
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Major Item",
+                                        "item_count": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Grapple Beam",
+                                "access_rules": [
+                                    "speed,{grapple}",
+                                    "morph,varia,beam,$canOpenChargeDoors,{grapple}",
+                                    "varia,$canShortBoost,$canOpenChargeDoors,{grapple}",
+                                    "morph,varia,speed,$canOpenChargeDoors,{grapple}"
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "artaria",
+                                        "x": 2102,
+                                        "y": 518
+                                    }
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Major Item",
+                                        "item_count": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Screw Attack",
+                                "access_rules": [
+                                    "[varia,$canSSC],{screw}",
+                                    "grapple,$canColdRun|3,[diffusion],{screw}"
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "artaria",
+                                        "x": 300,
+                                        "y": 640
                                     }
                                 ],
                                 "sections": [

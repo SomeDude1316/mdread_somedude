@@ -191,6 +191,22 @@
     },
 
     {
+        "name": "Energy Tank",
+        "type": "consumable",
+        "img": "images/item_etank.png",
+        "max_quantity": 8,
+        "codes": "etank,alltanks"
+    },
+
+    {
+        "name": "Energy Part",
+        "type": "consumable",
+        "img": "images/item_epart.png",
+        "max_quantity": 16,
+        "codes": "epart,alltanks"
+    },
+
+    {
         "name": "White Emmi",
         "type": "toggle",
         "loop": "true",
