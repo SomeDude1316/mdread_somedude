@@ -1,6 +1,60 @@
 [
     {
         "name": "Ghavoran",
-        "color": "#2bbc35"
+        "color": "#2bbc35",
+        "children": [
+            {
+                "name": "Major Items",
+                "chest_unopened_img": "images/major_unopened.png",
+                "chest_opened_img": "images/major_opened.png",
+                "children": [
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Minor Items",
+                "chest_unopened_img": "images/minor_unopened.png",
+                "chest_opened_img": "images/minor_opened.png",
+                "children": [
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 ]

@@ -1,6 +1,98 @@
 [
     {
         "name": "Hanubia",
-        "color": "#851bd6"
+        "color": "#851bd6",
+        "children": [
+            {
+                "name": "Major Items",
+                "chest_unopened_img": "images/major_unopened.png",
+                "chest_opened_img": "images/major_opened.png",
+                "children": [
+                    {
+                        "name": "Red EMMI",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "hanubia",
+                                "x": 1115,
+                                "y": 318
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 0,
+                                "hosted_item": "red"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Minor Items",
+                "chest_unopened_img": "images/minor_unopened.png",
+                "chest_opened_img": "images/minor_opened.png",
+                "children": [
+                    {
+                        "name": "Missile (Ferenia Elevator Access)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "hanubia",
+                                "x": 719,
+                                "y": 320
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },{
+                        "name": "Power Bomb Tank ()",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "hanubia",
+                                "x": 868,
+                                "y": 232
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Shuttle Bay)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "hanubia",
+                                "x": 828,
+                                "y": 129
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 ]

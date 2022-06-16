@@ -1,6 +1,117 @@
 [
     {
         "name": "Elun",
-        "color": "#1634cc"
+        "color": "#1634cc",
+        "children": [
+            {
+                "name": "Major Items",
+                "chest_unopened_img": "images/major_unopened.png",
+                "chest_opened_img": "images/major_opened.png",
+                "children": [
+                    {
+                        "name": "Plasma Beam",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "elun",
+                                "x": 947,
+                                "y": 305
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Tank (Upper Level)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "elun",
+                                "x": 838,
+                                "y": 153
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Minor Items",
+                "chest_unopened_img": "images/minor_unopened.png",
+                "chest_opened_img": "images/minor_opened.png",
+                "children": [
+                    {
+                        "name": "Missile (Plasma Access)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "elun",
+                                "x": 1013,
+                                "y": 313
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Power Bomb Pipes)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "elun",
+                                "x": 1043,
+                                "y": 91
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Power Bomb Tank (Morph Maze)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "elun",
+                                "x": 1131,
+                                "y": 211
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 ]
