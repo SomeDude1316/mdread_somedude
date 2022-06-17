@@ -9,15 +9,53 @@
                 "chest_opened_img": "images/major_opened.png",
                 "children": [
                     {
-                        "name": "Template",
+                        "name": "Diffusion Beam",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "cataris",
-                                "x": 0,
-                                "y": 0
+                                "x": 411,
+                                "y": 755
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },{
+                        "name": "Green EMMI",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 539,
+                                "y": 261
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 0,
+                                "hosted_item": "green"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Tank (Lava Hallway)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 1209,
+                                "y": 246
                             }
                         ],
                         "sections": [
@@ -35,15 +73,376 @@
                 "chest_opened_img": "images/minor_opened.png",
                 "children": [
                     {
-                        "name": "Template",
+                        "name": "Missile (First Thermal Backdoor)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "cataris",
-                                "x": 0,
-                                "y": 0
+                                "x": 1321,
+                                "y": 819
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Screw Alcove)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 971,
+                                "y": 752
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Reactor East)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 1241,
+                                "y": 624
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Heated Passageway)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 857,
+                                "y": 596
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (EMMI Blind Spot)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 1124,
+                                "y": 395
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Under Rail Controls)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 1577,
+                                "y": 437
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Above Blue Teleportal)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 1695,
+                                "y": 320
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Rock Cages)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 1387,
+                                "y": 210
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Power Bomb Tank (Spider Platform)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 1513,
+                                "y": 207
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile+ (Red Teleportal)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 187,
+                                "y": 500
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Power Bomb Tank (Under Diffusion)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 443,
+                                "y": 780
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Kraid Entrance)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 380,
+                                "y": 692
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Purple Teleportal)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 503,
+                                "y": 561
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Part ()",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 809,
+                                "y": 731
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Orange Teleportal Lava Lake)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 361,
+                                "y": 446
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Above Orange Teleportal)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 309,
+                                "y": 311
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (EMMI Pit)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 478,
+                                "y": 393
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Power Bomb Tank (Speed Tunnel)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 686,
+                                "y": 436
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Dairon Access)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 1063,
+                                "y": 82
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Part (Lava Hallway)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 1168,
+                                "y": 261
                             }
                         ],
                         "sections": [
