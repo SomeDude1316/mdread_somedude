@@ -25,7 +25,7 @@
     },
     {
         "name": "elun",
-        "location_size": 15,
+        "location_size": 20,
         "location_border_thickness": 3,
         "img": "images/map_elun.png"
     },
@@ -43,7 +43,7 @@
     },
     {
         "name": "hanubia",
-        "location_size": 15,
+        "location_size": 20,
         "location_border_thickness": 3,
         "img": "images/map_hanubia.png"
     }
