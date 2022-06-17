@@ -1,13 +1,15 @@
--- Load logic
+-- Load base logic
 ScriptHost:LoadScript("scripts/settings.lua")
-ScriptHost:LoadScript("scripts/itemlogic.lua")
-ScriptHost:LoadScript("scripts/arealogic.lua")
+ScriptHost:LoadScript("scripts/logic.lua")
 
 -- Load items
 Tracker:AddItems("items/items.json")
 
 -- Load area maps
 Tracker:AddMaps("maps/maps.json")
+
+--Load logic
+Tracker:AddLocations("locations/_logic.json")
 
 -- Load locations by area
 Tracker:AddLocations("locations/artaria.json")

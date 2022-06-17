@@ -26,7 +26,7 @@
                     },
                     {
                         "name": "Corpius",
-                        "access_rules": ["magnet", "cloak", "[]"],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -43,7 +43,7 @@
                     },
                     {
                         "name": "Varia Suit",
-                        "access_rules": ["$canOpenChargeDoors,morph,suit","{$canOpenChargeDoors,morph}"],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -60,12 +60,7 @@
                     },
                     {
                         "name": "Grapple Beam",
-                        "access_rules": [
-                            "speed,grapple",
-                            "morph,suit,beam,$canOpenChargeDoors,grapple",
-                            "{speed}",
-                            "{morph,suit,beam,$canOpenChargeDoors}"
-                        ],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -82,14 +77,7 @@
                     },
                     {
                         "name": "Screw Attack",
-                        "access_rules": [
-                            "$canWBJ,suit,$canSSC,screw,[plasma]",
-                            "morph,grapple,gravity,jump,screw,[$canBreakDiffBlobs]",
-                            "morph,$canColdRun|2,$canWBJ,$canWSJ,screw,[$canBreakDiffBlobs]",
-                            "{morph,suit,$canSSC}",
-                            "{morph,grapple,gravity,$canBreakDiffBlobs}",
-                            "{morph,$canColdRun|2,$canWBJ,$canWSJ,$canBreakDiffBlobs}"
-                        ],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -106,7 +94,7 @@
                     },
                     {
                         "name": "White EMMI",
-                        "access_rules": ["$canOpenChargeDoors,magnet", "$canOpenChargeDoors,$canClimb"],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -124,7 +112,7 @@
                     },
                     {
                         "name": "Energy Tank (Charge Tutorial)",
-                        "access_rules": ["$canOpenChargeDoors"],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -141,10 +129,7 @@
                     },
                     {
                         "name": "Energy Tank (Varia Speed Puzzle)",
-                        "access_rules": [
-                            "$canOpenChargeDoors,$canBomb,suit,speed,grapple",
-                            "{$canOpenChargeDoors,$canBomb,speed,grapple}"
-                        ],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -168,7 +153,7 @@
                 "children": [
                     {
                         "name": "Missile (Melee Tutorial)",
-                        "access_rules": ["morph,$canFly", "morph,ice,missing|x", "{}"],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -201,11 +186,7 @@
                     },
                     {
                         "name": "Missile (Above Elaine)",
-                        "access_rules": [
-                            "$canAnyBomb,flash",
-                            "$canAnyBomb,jump",
-                            "$canAnyBomb,speed"
-                        ],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -238,11 +219,7 @@
                     },
                     {
                         "name": "Missile+ (Varia)",
-                        "access_rules": [
-                            "$canOpenChargeDoors,varia,morph,etank:2",
-                            "$canOpenChargeDoors,morph,gravity",
-                            "{$canOpenChargeDoors,morph}"
-                        ],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -259,11 +236,7 @@
                     },
                     {
                         "name": "Missile (Varia Super Missile Door)",
-                        "access_rules": [
-                            "$canOpenChargeDoors,morph,missile",
-                            "$canOpenChargeDoors,morph,$canSSC,[missile]",
-                            "{$canOpenChargeDoors,morph}"
-                        ],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -296,7 +269,7 @@
                     },
                     {
                         "name": "Missile (Below Red Teleportal)",
-                        "access_rules": ["morph"],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -313,7 +286,7 @@
                     },
                     {
                         "name": "Missile+ (Speedway)",
-                        "access_rules": ["speed"],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -346,11 +319,7 @@
                     },
                     {
                         "name": "Missile (From Speedway)",
-                        "access_rules": [
-                            "speed,$canBomb",
-                            "$canPowerBomb",
-                            "$canSSC,[$canAnyBomb]"
-                        ],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -367,14 +336,7 @@
                     },
                     {
                         "name": "Missile (Under Geothermal Bridge)",
-                        "access_rules": [
-                            "$canOpenChargeDoors,suit,magnet",
-                            "$canOpenChargeDoors,$canHellRun|6,speed",
-                            "$canOpenChargeDoors,$canHellRun|6,grapple",
-                            "$canOpenChargeDoors,$canHellRun|6,space",
-                            "$canOpenChargeDoors,$canHellRun|6,flash",
-                            "{$canOpenChargeDoors}"
-                        ],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -391,7 +353,7 @@
                     },
                     {
                         "name": "Missile (Heated Elevator Access)",
-                        "access_rules": ["$canOpenChargeDoors,$canClimb"],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -408,7 +370,7 @@
                     },
                     {
                         "name": "Missile (Thermal Transfer)",
-                        "access_rules": ["$canOpenChargeDoors"],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -425,7 +387,7 @@
                     },
                     {
                         "name": "Missile (Jaffe Room)",
-                        "access_rules": ["$canOpenChargeDoors"],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -442,7 +404,7 @@
                     },
                     {
                         "name": "Missile (Morph Cutoff)",
-                        "access_rules": ["morph"],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -459,7 +421,7 @@
                     },
                     {
                         "name": "Missile (EMMI Zone Intro)",
-                        "access_rules": ["$canUseMagnets", "$canClimb", "[]"],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -476,10 +438,7 @@
                     },
                     {
                         "name": "Missile (Near Grapple Tower)",
-                        "access_rules": [
-                            "speed",
-                            "morph,suit,beam,$canOpenChargeDoors"
-                        ],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -496,7 +455,7 @@
                     },
                     {
                         "name": "Missile (Grapple Trap)",
-                        "access_rules": ["grapple,$canOpenChargeDoors","{$canOpenChargeDoors}"],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -513,7 +472,7 @@
                     },
                     {
                         "name": "Missile (Silo Ball Spark)",
-                        "access_rules": ["morph,speed,$canClimb"],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -530,14 +489,7 @@
                     },
                     {
                         "name": "Power Bomb Tank (Silo)",
-                        "access_rules": [
-                            "speed",
-                            "flash",
-                            "$canFly",
-                            "$canClimb,missing|morph",
-                            "$canUseMagnets,flash",
-                            "$canUseMagnets,jump"
-                        ],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -554,11 +506,7 @@
                     },
                     {
                         "name": "Missile (Screw Attack Waterway)",
-                        "access_rules": [
-                            "suit,$canSSC,screw,$canBreakDiffBlobs,[plasma]",
-                            "$canBomb,grapple,$canColdRun|2,[$canBreakDiffBlobs]",
-                            "$transportArt,screw,[$canBreakDiffBlobs]"
-                        ],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -575,14 +523,7 @@
                     },
                     {
                         "name": "Missile (Above Screw Attack)",
-                        "access_rules": [
-                            "$canWBJ,suit,$canSSC,screw,[plasma]",
-                            "morph,grapple,gravity,jump,screw,[$canBreakDiffBlobs]",
-                            "morph,$canColdRun|2,$canWBJ,$canWSJ,screw,[$canBreakDiffBlobs]",
-                            "{morph,suit,$canSSC}",
-                            "{morph,grapple,gravity,$canBreakDiffBlobs}",
-                            "{morph,$canColdRun|3,$canWBJ,$canWSJ,$canBreakDiffBlobs}"
-                        ],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",
@@ -599,7 +540,7 @@
                     },
                     {
                         "name": "Missile (Twin Pools)",
-                        "access_rules": ["jump", "$canMagnetClimb"],
+                        "access_rules": [],
                         "map_locations": [
                             {
                                 "map": "artaria",

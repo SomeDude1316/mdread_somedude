@@ -1,0 +1,178 @@
+[
+    {
+        "name": "can",
+        "sections": [
+            //Bomb abilities
+            {
+                "name": "bomb",
+                "access_rules": [
+                    "morph,bomb",
+                    "morph,cross"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "pb",
+                "access_rules": [
+                    "morph,pb"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "anybomb",
+                "access_rules": [
+                    "@can/bomb",
+                    "@can/pb"
+                ],
+                "item_count": 1
+            },
+
+            //Vertical traversal
+            {
+                "name": "fly",
+                "access_rules": [
+                    "@can/bomb",
+                    "space"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "climb",
+                "access_rules": [
+                    "@can/fly",
+                    "morph",
+                    "flash"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "reach",
+                "access_rules": [
+                    "@can/climb",
+                    "spin"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "reach_nowall",
+                "access_rules": [
+                    "@can/fly",
+                    "spin"
+                ],
+                "item_count": 1
+            },
+
+            //Magnet usage
+            {
+                "name": "usemagnets",
+                "access_rules": [
+                    "spider",
+                    "grapple"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "magclimb",
+                "access_rules": [
+                    "@can/climb",
+                    "@can/usemagnets"
+                ],
+                "item_count": 1
+            },
+
+            //Doors and blobs
+            {
+                "name": "open_greendoors",
+                "access_rules": [
+                    "missile"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "open_chargedoors",
+                "access_rules": [
+                    "charge",
+                    "@can/pb"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "open_widedoors",
+                "access_rules": [
+                    "beam"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "open_wideblocks",
+                "access_rules": [
+                    "charge,beam"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "open_diffblobs",
+                "access_rules": [
+                    "diffusion",
+                    "wave"
+                ],
+                "item_count": 1
+            },
+
+            //Speed Shenanigans
+            {
+                "name": "shortboost",
+                "access_rules": [
+                    "speed,flash"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "adc",
+                "access_rules": [
+                    "speed,flash,grapple"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "template",
+                "access_rules": [
+                    
+                ],
+                "item_count": 1
+            },
+
+            //Water abilities
+            {
+                "name": "wbj",
+                "access_rules": [
+                    "morph,bomb"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "wsj",
+                "access_rules": [
+                    "space"
+                ],
+                "item_count": 1
+            },
+
+            //World events
+            {
+                "name": "event_qr",
+                "access_rules": [
+                    "qr"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "event_x",
+                "access_rules": [
+                    "x"
+                ],
+                "item_count": 1
+            }
+        ]
+    }
+]

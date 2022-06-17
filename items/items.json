@@ -138,7 +138,7 @@
         "type": "toggle",
         "loop": "true",
         "img": "images/item_spidermagnet.png",
-        "codes": "spider,magnet"
+        "codes": "spider"
     },
 
     {
