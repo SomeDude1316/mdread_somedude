@@ -5,53 +5,46 @@
         "stages": [
             {
                 "img": "images/item_chargebeam.png",
-                "codes": "charge"
+                "codes": "anycharge,charge"
             },
-
             {
                 "img": "images/item_diffusionbeam.png",
-                "codes": "charge,diffusion"
+                "codes": "anycharge,diffusion"
             }
         ]
     },
-
     {
         "name": "Beam",
         "type": "progressive",
         "stages": [
             {
                 "img": "images/item_widebeam.png",
-                "codes": "beam,wide"
+                "codes": "anybeam,wide"
             },
-            
             {
                 "img": "images/item_plasmabeam.png",
-                "codes": "beam,wide,plasma"
+                "codes": "anybeam,wide,plasma"
             },
-            
             {
                 "img": "images/item_wavebeam.png",
-                "codes": "beam,wide,plasma,wave"
+                "codes": "anybeam,wide,plasma,wave"
             }
         ]
     },
-
     {
         "name": "Missile",
         "type": "progressive",
         "stages": [
             {
                 "img": "images/item_supermissile.png",
-                "codes": "missile,super"
+                "codes": "anymissile,super"
             },
-
             {
                 "img": "images/item_icemissile.png",
-                "codes": "missile,ice"
+                "codes": "anymissile,ice"
             }
         ]
     },
-    
     {
         "name": "Storm Missile",
         "type": "toggle",
@@ -59,39 +52,34 @@
         "img": "images/item_stormmissile.png",
         "codes": "storm"
     },
-
     {
         "name": "Suit",
         "type": "progressive",
         "stages": [
             {
                 "img": "images/item_variasuit.png",
-                "codes": "suit,varia"
+                "codes": "anysuit,varia"
             },
-
             {
                 "img": "images/item_gravitysuit.png",
-                "codes": "suit,gravity"
+                "codes": "anysuit,gravity"
             }
         ]
     },
-
     {
         "name": "Spin Jump",
         "type": "progressive",
         "stages": [
             {
                 "img": "images/item_spinboost.png",
-                "codes": "jump,spin"
+                "codes": "anyjump,spin"
             },
-
             {
                 "img": "images/item_spacejump.png",
-                "codes": "jump,space"
+                "codes": "anyjump,space"
             }
         ]
     },
-
     {
         "name": "Morph Ball",
         "type": "toggle",
@@ -99,31 +87,27 @@
         "img": "images/item_morphball.png",
         "codes": "morph"
     },
-
     {
         "name": "Morph Bomb",
         "type": "toggle",
         "loop": "true",
         "img": "images/item_bomb.png",
-        "codes": "bomb"
+        "codes": "anybomb,regbomb,bomb"
     },
-
     {
         "name": "Cross Bomb",
         "type": "toggle",
         "loop": "true",
         "img": "images/item_crossbomb.png",
-        "codes": "cross"
+        "codes": "anybomb,regbomb,cross"
     },
-
     {
         "name": "Power Bomb",
         "type": "toggle",
         "loop": "true",
         "img": "images/item_powerbomb.png",
-        "codes": "powerbomb,pb"
+        "codes": "anybomb,pb"
     },
-
     {
         "name": "Slide",
         "type": "toggle",
@@ -132,7 +116,6 @@
         "codes": "slide",
         "initial_active_state": "true"
     },
-
     {
         "name": "Spider Magnet",
         "type": "toggle",
@@ -140,7 +123,6 @@
         "img": "images/item_spidermagnet.png",
         "codes": "spider"
     },
-
     {
         "name": "Speed Booster",
         "type": "toggle",
@@ -148,7 +130,6 @@
         "img": "images/item_speedbooster.png",
         "codes": "speed"
     },
-
     {
         "name": "Grapple Beam",
         "type": "toggle",
@@ -156,7 +137,6 @@
         "img": "images/item_grapplebeam.png",
         "codes": "grapple"
     },
-
     {
         "name": "Screw Attack",
         "type": "toggle",
@@ -164,7 +144,6 @@
         "img": "images/item_screwattack.png",
         "codes": "screw"
     },
-
     {
         "name": "Phantom Cloak",
         "type": "toggle",
@@ -172,7 +151,6 @@
         "img": "images/item_phantomcloak.png",
         "codes": "cloak"
     },
-
     {
         "name": "Flash Shift",
         "type": "toggle",
@@ -180,7 +158,6 @@
         "img": "images/item_flashshift.png",
         "codes": "flash"
     },
-
     {
         "name": "Pulse Radar",
         "type": "toggle",
@@ -189,7 +166,6 @@
         "codes": "radar",
         "initial_active_state": "true"
     },
-
     {
         "name": "Energy Tank",
         "type": "consumable",
@@ -197,7 +173,6 @@
         "max_quantity": 8,
         "codes": "etank,alltanks"
     },
-
     {
         "name": "Energy Part",
         "type": "consumable",
@@ -205,7 +180,6 @@
         "max_quantity": 16,
         "codes": "epart,alltanks"
     },
-
     {
         "name": "White Emmi",
         "type": "toggle",
@@ -213,7 +187,6 @@
         "img": "images/boss_white.png",
         "codes": "emmi,white"
     },
-
     {
         "name": "Green Emmi",
         "type": "toggle",
@@ -221,7 +194,6 @@
         "img": "images/boss_green.png",
         "codes": "emmi,green"
     },
-
     {
         "name": "Yellow Emmi",
         "type": "toggle",
@@ -229,7 +201,6 @@
         "img": "images/boss_yellow.png",
         "codes": "emmi,yellow"
     },
-
     {
         "name": "Blue Emmi",
         "type": "toggle",
@@ -237,7 +208,6 @@
         "img": "images/boss_blue.png",
         "codes": "emmi,blue"
     },
-
     {
         "name": "Purple Emmi",
         "type": "toggle",
@@ -245,7 +215,6 @@
         "img": "images/boss_purple.png",
         "codes": "emmi,purple"
     },
-
     {
         "name": "Red Emmi",
         "type": "toggle",
@@ -253,7 +222,6 @@
         "img": "images/boss_red.png",
         "codes": "emmi,red"
     },
-
     {
         "name": "Quiet Robe",
         "type": "toggle",
@@ -261,7 +229,6 @@
         "img": "images/event_qr.png",
         "codes": "event,qr"
     },
-
     {
         "name": "X Released",
         "type": "toggle",
