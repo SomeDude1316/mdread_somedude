@@ -172,7 +172,7 @@
             {
                 "name": "open grav tower",
                 "access_rules": [
-                    //Dev intended
+                    //Dev Intended
                     "morph,@can/open_diffblobs,grapple"
                 ],
                 "item_count": 1
@@ -180,17 +180,36 @@
             {
                 "name": "climb grav tower",
                 "access_rules": [
-                    //Dev intended - from Lower Burenia
+                    //Dev Intended - from Lower Burenia
                     "@can/open grav tower,gravity,@can/fly",
                     "@can/open grav tower,gravity,speed",
                     //Power Bomb Cloak Door
                     "@can/open grav tower,@can/pb,cloak,speed,flash"
                 ],
                 "item_count": 1
-            }
+            },
             //Cataris
             //Dairon
+            {
+                "name": "early grapple",
+                "access_rules": [
+                    //Early grapple
+                    "anysuit,morph,@can/open_chargedoors"
+                ],
+                "item_count": 1
+            },
+
             //Elun
+            {
+                "name": "release x",
+                "access_rules": [
+                    //Dev Intended
+                    "@reqs/elun,plasma",
+                    //Ledge Warp
+                    "@reqs/elun,@can/regbomb"
+                ],
+                "item_count": 1
+            }
             //Ferenia
             //Ghavoran
             //Hanubia
@@ -210,9 +229,19 @@
                 "item_count": 1
             },
             {
+                "name": "grapple",
+                "access_rules": [
+                    //From Artaria
+                    "speed",
+                    //From Dairon
+                    "@can/early grapple"
+                ],
+                "item_count": 1
+            },
+            {
                 "name": "screw alley",
                 "access_rules": [
-                    //Dev intended - Blue Teleportal
+                    //Dev Intended - Blue Teleportal
                     "@reqs/blue tp to art,grapple,plasma,morph",
                     //Blue Teleportal - ADC
                     "@reqs/blue tp to art,@can/adc",
@@ -233,12 +262,20 @@
                 ],
                 "item_count": 1
             },
+            {
+                "name": "east artaria",
+                "access_rules": [
+                    //Getting in and out of Varia area
+                    "@can/open_chargedoors"
+                ],
+                "item_count": 1
+            },
 
             //Burenia
             {
                 "name": "upper burenia",
                 "access_rules": [
-                    //Dev intended - Quiet Robe
+                    //Dev Intended - Quiet Robe
                     "@event/qr",
                     //From Ghavoran - Glitchless
                     "@can/anybomb,plasma",
@@ -250,9 +287,9 @@
             {
                 "name": "lower burenia",
                 "access_rules": [
-                    //Dev intended - with grapple
+                    //Dev Intended - with grapple
                     "plasma,spider,grapple",
-                    //Dev intended - with space jump
+                    //Dev Intended - with space jump
                     "plasma,spider,grapple",
                     //ADC
                     "@can/adc,gravity"
@@ -269,9 +306,9 @@
 
             //Cataris
             {
-                "name":"blue tp to art",
+                "name": "blue tp to art",
                 "access_rules": [
-                    //Dev intended
+                    //Dev Intended
                     "gravity,speed,morph",
                     //Power Bomb from above
                     "anysuit,@can/pb",
@@ -280,11 +317,52 @@
                 ],
                 "item_count": 1
             },
+            {
+                "name": "red tp to art",
+                "access_rules": [
+                    //Still not much needed
+                    "morph"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "orange tp to ghav",
+                "access_rules": [
+                    //Dev Intended - Also open the Ghav charge door
+                    "anysuit,@can_openchargedoors,@can/usemagnets",
+                    "anysuit,@can_openchargedoors,@can/fly",
+                    "anysuit,@can_openchargedoors,flash",
+                    //Hell runs - Also open the Ghav charge door
+                    "$canHellRun|1,@can_openchargedoors,grapple,flash",
+                    "$canHellRun|2,@can_openchargedoors,grapple",
+                    "$canHellRun|2,@can_openchargedoors,anyjump",
+                    "$canHellRun|2,@can_openchargedoors,flash",
+                    "$canHellRun|1,@can_openchargedoors,flash,anyjump"
+                ],
+                "item_count": 1
+            },
+
             //Dairon
+            {
+                "name": "yellow tp to art",
+                "access_rules": [
+                    //Dev Intended - Useless without Wide Beam
+                    "speed,@can/open_widedoors"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "elevator dai to ghav",
+                "access_rules": [
+                    //Dev Intended
+                    "$canColdRun|4,speed"
+                ],
+                "item_count": 1
+            },
             
             //Elun
             {
-                "name":"elun",
+                "name": "elun",
                 "access_rules": [
                     //Power Bomb
                     "@can/open_greendoors,grapple"
@@ -297,7 +375,7 @@
                 "name": "quiet robe",
                 "access_rules": [
                     //Access through QR sequence and return to Dairon
-                    //Dev intended
+                    //Dev Intended
                     "morph,speed,grapple,@can/open_wideblocks",
                     //ADC past wide block
                     "morph,@can/adc",
@@ -307,22 +385,77 @@
                 "item_count": 1
             },
             {
-                "name":"cyan tp to bur",
+                "name": "cyan tp to bur",
                 "access_rules": [
                     //Power Bomb
                     "@can/pb"
                 ],
                 "item_count": 1
             },
+            {
+                "name": "storm shed",
+                "access_rules": [
+                    //Dev Intended - EMMI zone, Storms needed to exit
+                    "@can/anybomb,storm",
+                    //Backdoor
+                    "@can/adc,morph,storm"
+                ],
+                "item_count": 1
+            },
 
             //Ghavoran
+            {
+                "name": "orange tp to cat",
+                "access_rules": [
+                    //No intended method
+                    //Power Bombs
+                    "@can/pb",
+                    //Pseudo wave
+                    "morph,anybeam,anycharge"
+                ],
+                "item_count": 1
+            },
+            {
+                "name":"green tp to bur",
+                "access_rules": [
+                    //Dev Intended
+                    "space",
+                    //Gravity
+                    "gravity",
+                    //Shinespark from above
+                    "speed,@can/open_enky",
+                    //Fall through Screw blocks
+                    "screw",
+                    //Power Bomb from door underneath
+                    "anyjump,@can/pb",
+                    "@can/bomb,@can/pb"
+                ],
+                "item_count": 1
+            },
             
             //Hanubia
             {
-                "name":"golden chozo",
+                "name": "hanubia",
+                "access_rules": [
+                    //Dev Intended - Golzuna
+                    "@event/x,morph,cross,screw",
+                    //Dev Intended minus Cross Bombs
+                    "@event/x,@can/anybomb,flash,screw",
+                    //ADC Golzuna arena
+                    "@can/adc,morph,cross,screw",
+                    //ADC Golzuna arena minus Cross Bombs
+                    "@can/adc,@can/anybomb,flash,screw",
+                    //From Ferenia
+                    "screw,wave"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "golden chozo",
                 "access_rules": [
                     //Assume Hanubia locks are in place (can make a setting about this later)
-                    "@can/pb,speed,wave,grapple"
+                    "@can/pb,speed,wave,grapple",
+                    "@can/pb,@can/fly,screw,wave,grapple"
                 ],
                 "item_count": 1
             }

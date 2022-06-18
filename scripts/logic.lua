@@ -15,7 +15,7 @@ end
 -- Traversal Ability
 
 function canHellRun(num)
-    return hasItem("suit") or countTanks() >= num
+    return hasItem("anysuit") or countTanks() >= num
 end
 
 function canColdRun(num)
