@@ -9,21 +9,60 @@
                 "chest_opened_img": "images/major_opened.png",
                 "children": [
                     {
-                        "name": "Template",
+                        "name": "Space Jump",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "ferenia",
-                                "x": 0,
-                                "y": 0
+                                "x": 633,
+                                "y": 329
                             }
                         ],
                         "sections": [
                             {
                                 "name": "Major Item",
                                 "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Escue",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ferenia",
+                                "x": 1620,
+                                "y": 633
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Purple EMMI",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ferenia",
+                                "x": 1804,
+                                "y": 249
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 0,
+                                "hosted_item": "purple"
                             }
                         ]
                     }

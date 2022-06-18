@@ -9,15 +9,111 @@
                 "chest_opened_img": "images/major_opened.png",
                 "children": [
                     {
-                        "name": "Template",
+                        "name": "Super Missiles",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "ghavoran",
-                                "x": 0,
-                                "y": 0
+                                "x": 528,
+                                "y": 643
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pulse Radar",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 841,
+                                "y": 146
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Spin Boost",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 845,
+                                "y": 349
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Blue EMMI",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 354,
+                                "y": 197
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 0,
+                                "hosted_item": "blue"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Golzuna",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 1091,
+                                "y": 156
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Tank (Spin Boost Tower)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 785,
+                                "y": 174
                             }
                         ],
                         "sections": [
@@ -34,6 +130,253 @@
                 "chest_unopened_img": "images/minor_unopened.png",
                 "chest_opened_img": "images/minor_opened.png",
                 "children": [
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
                     {
                         "name": "Template",
                         "access_rules": [

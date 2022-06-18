@@ -9,15 +9,72 @@
                 "chest_opened_img": "images/major_opened.png",
                 "children": [
                     {
-                        "name": "Template",
+                        "name": "Flash Shift",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "burenia",
-                                "x": 0,
-                                "y": 0
+                                "x": 432,
+                                "y": 676
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Gravity Suit",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 544,
+                                "y": 1086
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Tank (Flash Alcove)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 350,
+                                "y": 608
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Tank (Lower Storm Gate)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 396,
+                                "y": 1050
                             }
                         ],
                         "sections": [
