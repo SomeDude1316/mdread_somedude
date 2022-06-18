@@ -554,6 +554,23 @@
                                 "item_count": 1
                             }
                         ]
+                    },
+                    {
+                        "name": "Missile (Burenia Elevator)",
+                        "access_rules": [],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 20,
+                                "y": 597
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
                     }
                 ]
             }
