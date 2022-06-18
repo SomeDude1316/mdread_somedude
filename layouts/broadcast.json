@@ -15,8 +15,8 @@
                         "h_alignment": "left",
                         "item_size": 48,
                         "rows": [
-                            ["charge", "beam", "suit", "missile", "storm"],
-                            ["jump", "morph", "bomb", "cross", "powerbomb"],
+                            ["charge", "anybeam", "anysuit", "anymissile", "storm"],
+                            ["anyjump", "morph", "bomb", "cross", "pb"],
                             ["slide", "magnet", "grapple", "speed", "screw"],
                             ["", "cloak", "flash", "radar", ""],
                             ["white", "green", "yellow", "blue", "purple", "red"]
