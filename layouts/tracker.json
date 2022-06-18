@@ -17,8 +17,7 @@
                             ["charge", "anybeam", "anysuit", "anymissile", "storm"],
                             ["anyjump", "morph", "bomb", "cross", "pb"],
                             ["slide", "spider", "grapple", "speed", "screw"],
-                            ["", "cloak", "flash", "radar", ""],
-                            ["white", "green", "yellow", "blue", "purple", "red"]
+                            ["", "cloak", "flash", "radar", ""]
                         ]
                     },
                     {
