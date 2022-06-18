@@ -16,7 +16,7 @@
                         "map_locations": [
                             {
                                 "map": "ghavoran",
-                                "x": 528,
+                                "x": 519,
                                 "y": 643
                             }
                         ],
@@ -35,7 +35,7 @@
                         "map_locations": [
                             {
                                 "map": "ghavoran",
-                                "x": 841,
+                                "x": 830,
                                 "y": 146
                             }
                         ],
@@ -54,7 +54,7 @@
                         "map_locations": [
                             {
                                 "map": "ghavoran",
-                                "x": 845,
+                                "x": 832,
                                 "y": 349
                             }
                         ],
@@ -73,7 +73,7 @@
                         "map_locations": [
                             {
                                 "map": "ghavoran",
-                                "x": 354,
+                                "x": 340,
                                 "y": 197
                             }
                         ],
@@ -93,7 +93,7 @@
                         "map_locations": [
                             {
                                 "map": "ghavoran",
-                                "x": 1091,
+                                "x": 1080,
                                 "y": 156
                             }
                         ],
@@ -112,7 +112,7 @@
                         "map_locations": [
                             {
                                 "map": "ghavoran",
-                                "x": 785,
+                                "x": 773,
                                 "y": 174
                             }
                         ],
@@ -131,15 +131,15 @@
                 "chest_opened_img": "images/minor_opened.png",
                 "children": [
                     {
-                        "name": "Template",
+                        "name": "Missile (Lower Left Entrance)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "ghavoran",
-                                "x": 0,
-                                "y": 0
+                                "x": 203,
+                                "y": 610
                             }
                         ],
                         "sections": [
@@ -150,15 +150,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Missile (Right Entrance)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "ghavoran",
-                                "x": 0,
-                                "y": 0
+                                "x": 356,
+                                "y": 665
                             }
                         ],
                         "sections": [
@@ -169,15 +169,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Missile+ (Above Super Missiles)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "ghavoran",
-                                "x": 0,
-                                "y": 0
+                                "x": 578,
+                                "y": 574
                             }
                         ],
                         "sections": [
@@ -188,15 +188,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Missile (Dairon Transport Access)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "ghavoran",
-                                "x": 0,
-                                "y": 0
+                                "x": 735,
+                                "y": 633
                             }
                         ],
                         "sections": [
@@ -207,15 +207,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Missile (Elun Transport Access)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "ghavoran",
-                                "x": 0,
-                                "y": 0
+                                "x": 663,
+                                "y": 501
                             }
                         ],
                         "sections": [
@@ -226,15 +226,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Missile (Map Station Hideaway)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "ghavoran",
-                                "x": 0,
-                                "y": 0
+                                "x": 637,
+                                "y": 419
                             }
                         ],
                         "sections": [
@@ -245,15 +245,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Energy Part (Grapple Shroom)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "ghavoran",
-                                "x": 0,
-                                "y": 0
+                                "x": 677,
+                                "y": 347
                             }
                         ],
                         "sections": [
@@ -264,15 +264,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Power Bomb Tank (Spin Boost Tower)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "ghavoran",
-                                "x": 0,
-                                "y": 0
+                                "x": 726,
+                                "y": 55
                             }
                         ],
                         "sections": [
@@ -283,15 +283,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Missile (Above Pulse Radar)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "ghavoran",
-                                "x": 0,
-                                "y": 0
+                                "x": 871,
+                                "y": 93
                             }
                         ],
                         "sections": [
@@ -302,15 +302,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Missile (Golzuna Tower Ramp)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "ghavoran",
-                                "x": 0,
-                                "y": 0
+                                "x": 925,
+                                "y": 198
                             }
                         ],
                         "sections": [
@@ -321,15 +321,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Energy Part (Top of Golzuna Tower)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "ghavoran",
-                                "x": 0,
-                                "y": 0
+                                "x": 935,
+                                "y": 47
                             }
                         ],
                         "sections": [
@@ -340,15 +340,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Missile (Above Green Teleportal)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "ghavoran",
-                                "x": 0,
-                                "y": 0
+                                "x": 985,
+                                "y": 273
                             }
                         ],
                         "sections": [
@@ -359,15 +359,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Missile (Green Teleportal Storm Gate)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "ghavoran",
-                                "x": 0,
-                                "y": 0
+                                "x": 1007,
+                                "y": 295
                             }
                         ],
                         "sections": [
@@ -378,15 +378,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Missile (Hanubia Access)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "ghavoran",
-                                "x": 0,
-                                "y": 0
+                                "x": 1235,
+                                "y": 161
                             }
                         ],
                         "sections": [
