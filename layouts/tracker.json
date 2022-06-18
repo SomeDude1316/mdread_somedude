@@ -20,22 +20,25 @@
                             ["", "cloak", "flash", "radar", ""],
                             ["white", "green", "yellow", "blue", "purple", "red"]
                         ]
-                    }
-                ]
-            },
-            {
-                "type": "array",
-                "orientation": "vertical",
-                "v_alignment": "center",
-                "margin": "5,0,0,0",
-                "content": [
+                    },
                     {
-                        "type": "itemgrid",
-                        "margin": "0,0",
-                        "item_margin": "2,0",
-                        "h_alignment": "center",
-                        "rows": [
-                            [ "etank","epart" ]
+                        "type": "array",
+                        "orientation": "vertical",
+                        "v_alignment": "center",
+                        "margin": "5,0,0,0",
+                        "content": [
+                            {
+                                "type": "itemgrid",
+                                "margin": "0,0",
+                                "item_margin": "2,0",
+                                "h_alignment": "center",
+                                "rows": [
+                                    [ "white", "green", "yellow" ],
+                                    [ "blue", "purple", "red" ],
+                                    [ "qr", "x" ],
+                                    [ "etank","epart" ]
+                                ]
+                            }
                         ]
                     }
                 ]
