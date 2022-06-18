@@ -9,15 +9,76 @@
                 "chest_opened_img": "images/major_opened.png",
                 "children": [
                     {
-                        "name": "Template",
+                        "name": "Wide Beam",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "dairon",
-                                "x": 0,
-                                "y": 0
+                                "x": 1421,
+                                "y": 284
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bombs",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 977,
+                                "y": 107
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Yellow EMMI",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 659,
+                                "y": 643
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Tank",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 1001,
+                                "y": 319
                             }
                         ],
                         "sections": [
@@ -34,6 +95,329 @@
                 "chest_unopened_img": "images/minor_unopened.png",
                 "chest_opened_img": "images/minor_opened.png",
                 "children": [
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Template",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
                     {
                         "name": "Template",
                         "access_rules": [
