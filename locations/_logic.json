@@ -326,6 +326,18 @@
                 "item_count": 1
             },
             {
+                "name": "purple tp to dai",
+                "access_rules": [
+                    //Dev Intended - From Kraid
+                    "anysuit,@can/open_diffblobs",
+                    //Grapple Door - Diffusion in Dairon
+                    "$canHellRun|2,grapple,@can/open_diffblobs",
+                    //Grapple Door - Pseudo in Dairon
+                    "$canHellRun|2,grapple,anycharge,anybeam"
+                ],
+                "item_count": 1
+            },
+            {
                 "name": "orange tp to ghav",
                 "access_rules": [
                     //Dev Intended - Also open the Ghav charge door
@@ -352,6 +364,20 @@
                 "item_count": 1
             },
             {
+                "name": "purple tp to cat",
+                "access_rules": [
+                    //Diffusion/Varia
+                    "diffusion,anysuit",
+                    //ADC into tp/Varia
+                    "@can/adc,varia",
+                    //Diffusion/Leave through grapple door
+                    "diffusion,$canHellRun|3,grapple",
+                    //ADC into tp/Leave through grapple door
+                    "@can/adc,$canHellRun|3,grapple"
+                ],
+                "item_count": 1
+            },
+            {
                 "name": "elevator dai to ghav",
                 "access_rules": [
                     //Dev Intended
@@ -372,15 +398,24 @@
             
             //Ferenia
             {
-                "name": "quiet robe",
+                "name": "quiet robe entrance",
                 "access_rules": [
-                    //Access through QR sequence and return to Dairon
-                    //Dev Intended
-                    "morph,speed,grapple,@can/open_wideblocks",
+                    //Dev Intended - From Dairon
+                    "morph,speed,grapple",
+                    //From Ferenia - Morph tunnel (After EMMI)
+                    "$emmiDefeated|purple,morph"
+                ],
+                "item_count": 1
+            },
+            {
+                "name": "quiet robe exit",
+                "access_rules": [
+                    //Dev Intended - Return to Dairon
+                    "morph,speed,@can/open_wideblocks",
                     //ADC past wide block
                     "morph,@can/adc",
-                    //Access through QR sequence and go to Ferenia
-                    "morph,speed,grapple,plasma,screw"
+                    //Exit to Ferenia
+                    "morph,speed,plasma,screw"
                 ],
                 "item_count": 1
             },
