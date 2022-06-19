@@ -13,7 +13,7 @@
     },
     {
         "name": "cataris",
-        "location_size": 25,
+        "location_size": 30,
         "location_border_thickness": 5,
         "img": "images/map_cataris.png"
     },
