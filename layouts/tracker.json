@@ -163,7 +163,6 @@
         "background": "#0c151c",
         "content": {
             "type": "dock",
-            "dropshadow": true,
             "content": [
                 {
                     "type": "dock",
