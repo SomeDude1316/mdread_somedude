@@ -46,7 +46,9 @@
                             },
                             {
                                 "name": "Minor Item",
-                                "item_count": 1
+                                "item_count": 1,
+                                "chest_unopened_img": "images/minor_unopened.png",
+                                "chest_opened_img": "images/minor_opened.png"
                             }
                         ]
                     },
@@ -97,15 +99,15 @@
                 "chest_opened_img": "images/minor_opened.png",
                 "children": [
                     {
-                        "name": "Template",
+                        "name": "Missile (Yellow Teleportal)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "dairon",
-                                "x": 0,
-                                "y": 0
+                                "x": 1972,
+                                "y": 74
                             }
                         ],
                         "sections": [
@@ -116,15 +118,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Missile (Top of Dairon Hub)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "dairon",
-                                "x": 0,
-                                "y": 0
+                                "x": 1690,
+                                "y": 230
                             }
                         ],
                         "sections": [
@@ -135,15 +137,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Energy Part (Heat Hub)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "dairon",
-                                "x": 0,
-                                "y": 0
+                                "x": 1410,
+                                "y": 453
                             }
                         ],
                         "sections": [
@@ -154,15 +156,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Missile (Grapple Tunnel)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "dairon",
-                                "x": 0,
-                                "y": 0
+                                "x": 1578,
+                                "y": 443
                             }
                         ],
                         "sections": [
@@ -173,15 +175,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Missile (Early Grapple Spark)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "dairon",
-                                "x": 0,
-                                "y": 0
+                                "x": 1717,
+                                "y": 515
                             }
                         ],
                         "sections": [
@@ -192,15 +194,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Power Bomb Tank (Artaria Transport)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "dairon",
-                                "x": 0,
-                                "y": 0
+                                "x": 1762,
+                                "y": 453
                             }
                         ],
                         "sections": [
@@ -211,15 +213,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Power Bomb Tank (EMMI Tunnel)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "dairon",
-                                "x": 0,
-                                "y": 0
+                                "x": 1148,
+                                "y": 181
                             }
                         ],
                         "sections": [
@@ -230,15 +232,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Missile (Cold Room Shaft)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "dairon",
-                                "x": 0,
-                                "y": 0
+                                "x": 611,
+                                "y": 310
                             }
                         ],
                         "sections": [
@@ -249,15 +251,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Missile (Cold Room Tunnel)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "dairon",
-                                "x": 0,
-                                "y": 0
+                                "x": 595,
+                                "y": 183
                             }
                         ],
                         "sections": [
@@ -268,15 +270,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Energy Part (Ghavoran Transport Access)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "dairon",
-                                "x": 0,
-                                "y": 0
+                                "x": 545,
+                                "y": 102
                             }
                         ],
                         "sections": [
