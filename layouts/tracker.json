@@ -46,7 +46,7 @@
     },
     "tracker_default": {
         "type": "container",
-        "background": "#000000",
+        "background": "#0c151c",
         "content": {
             "type": "dock",
             "content": [
@@ -80,11 +80,9 @@
                 },
                 {
                     "type": "tabbed",
-                    "background": "#0c151c",
                     "tabs": [
                         {
                             "title": "Artaria",
-                            "icon": "images/icon_artaria.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -94,7 +92,6 @@
                         },
                         {
                             "title": "Cataris",
-                            "icon": "images/icon_cataris.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -104,7 +101,6 @@
                         },
                         {
                             "title": "Dairon",
-                            "icon": "images/icon_dairon.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -114,7 +110,6 @@
                         },
                         {
                             "title": "Burenia",
-                            "icon": "images/icon_burenia.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -124,7 +119,6 @@
                         },
                         {
                             "title": "Ghavoran",
-                            "icon": "images/icon_ghavoran.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -134,7 +128,6 @@
                         },
                         {
                             "title": "Elun",
-                            "icon": "images/icon_elun.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -144,7 +137,6 @@
                         },
                         {
                             "title": "Ferenia",
-                            "icon": "images/icon_ferenia.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -154,7 +146,6 @@
                         },
                         {
                             "title": "Hanubia",
-                            "icon": "images/icon_hanubia.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -169,7 +160,7 @@
     },
     "tracker_horizontal": {
         "type": "container",
-        "background": "#000000",
+        "background": "#0c151c",
         "content": {
             "type": "dock",
             "dropshadow": true,
@@ -209,7 +200,6 @@
                     "tabs": [
                         {
                             "title": "Artaria",
-                            "icon": "images/map_artaria.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -219,7 +209,6 @@
                         },
                         {
                             "title": "Cataris",
-                            "icon": "images/map_cataris.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -229,7 +218,6 @@
                         },
                         {
                             "title": "Dairon",
-                            "icon": "images/map_dairon.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -239,7 +227,6 @@
                         },
                         {
                             "title": "Burenia",
-                            "icon": "images/map_burenia.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -249,7 +236,6 @@
                         },
                         {
                             "title": "Ghavoran",
-                            "icon": "images/map_ghavoran.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -259,7 +245,6 @@
                         },
                         {
                             "title": "Elun",
-                            "icon": "images/map_elun.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -269,7 +254,6 @@
                         },
                         {
                             "title": "Ferenia",
-                            "icon": "images/map_ferenia.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -279,7 +263,6 @@
                         },
                         {
                             "title": "Hanubia",
-                            "icon": "images/map_hanubia.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
