@@ -84,82 +84,82 @@
                     "tabs": [
                         {
                             "title": "Artaria",
+                            "icon": "images/icon_artaria.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
                                     "artaria"
-                                ],
-                                "icon": "images/icon_artaria.png"
+                                ]
                             }
                         },
                         {
                             "title": "Cataris",
+                            "icon": "images/icon_cataris.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
                                     "cataris"
-                                ],
-                                "icon": "images/icon_cataris.png"
+                                ]
                             }
                         },
                         {
                             "title": "Dairon",
+                            "icon": "images/icon_dairon.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
                                     "dairon"
-                                ],
-                                "icon": "images/icon_dairon.png"
+                                ]
                             }
                         },
                         {
                             "title": "Burenia",
+                            "icon": "images/icon_burenia.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
                                     "burenia"
-                                ],
-                                "icon": "images/icon_burenia.png"
+                                ]
                             }
                         },
                         {
                             "title": "Ghavoran",
+                            "icon": "images/icon_ghavoran.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
                                     "ghavoran"
-                                ],
-                                "icon": "images/icon_ghavoran.png"
+                                ]
                             }
                         },
                         {
                             "title": "Elun",
+                            "icon": "images/icon_elun.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
                                     "elun"
-                                ],
-                                "icon": "images/icon_elun.png"
+                                ]
                             }
                         },
                         {
                             "title": "Ferenia",
+                            "icon": "images/icon_ferenia.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
                                     "ferenia"
-                                ],
-                                "icon": "images/icon_ferenia.png"
+                                ]
                             }
                         },
                         {
                             "title": "Hanubia",
+                            "icon": "images/icon_hanubia.png",
                             "content": {
                                 "type": "map",
                                 "maps": [
                                     "hanubia"
-                                ],
-                                "icon": "images/icon_hanubia.png"
+                                ]
                             }
                         }
                     ]
