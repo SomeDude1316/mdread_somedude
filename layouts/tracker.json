@@ -88,7 +88,8 @@
                                 "type": "map",
                                 "maps": [
                                     "artaria"
-                                ]
+                                ],
+                                "icon": "images/icon_artaria.png"
                             }
                         },
                         {
@@ -97,7 +98,8 @@
                                 "type": "map",
                                 "maps": [
                                     "cataris"
-                                ]
+                                ],
+                                "icon": "images/icon_cataris.png"
                             }
                         },
                         {
@@ -106,7 +108,8 @@
                                 "type": "map",
                                 "maps": [
                                     "dairon"
-                                ]
+                                ],
+                                "icon": "images/icon_dairon.png"
                             }
                         },
                         {
@@ -115,7 +118,8 @@
                                 "type": "map",
                                 "maps": [
                                     "burenia"
-                                ]
+                                ],
+                                "icon": "images/icon_burenia.png"
                             }
                         },
                         {
@@ -124,7 +128,8 @@
                                 "type": "map",
                                 "maps": [
                                     "ghavoran"
-                                ]
+                                ],
+                                "icon": "images/icon_ghavoran.png"
                             }
                         },
                         {
@@ -133,7 +138,8 @@
                                 "type": "map",
                                 "maps": [
                                     "elun"
-                                ]
+                                ],
+                                "icon": "images/icon_elun.png"
                             }
                         },
                         {
@@ -142,7 +148,8 @@
                                 "type": "map",
                                 "maps": [
                                     "ferenia"
-                                ]
+                                ],
+                                "icon": "images/icon_ferenia.png"
                             }
                         },
                         {
@@ -151,7 +158,8 @@
                                 "type": "map",
                                 "maps": [
                                     "hanubia"
-                                ]
+                                ],
+                                "icon": "images/icon_hanubia.png"
                             }
                         }
                     ]
