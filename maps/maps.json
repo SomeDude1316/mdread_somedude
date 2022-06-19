@@ -19,7 +19,7 @@
     },
     {
         "name": "dairon",
-        "location_size": 20,
+        "location_size": 25,
         "location_border_thickness": 3,
         "img": "images/map_dairon.png"
     },
