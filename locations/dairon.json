@@ -289,15 +289,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Missile (Morph Launcher Detour)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "dairon",
-                                "x": 0,
-                                "y": 0
+                                "x": 494,
+                                "y": 441
                             }
                         ],
                         "sections": [
@@ -308,15 +308,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Missile (Grapple Shortcut)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "dairon",
-                                "x": 0,
-                                "y": 0
+                                "x": 570,
+                                "y": 448
                             }
                         ],
                         "sections": [
@@ -327,15 +327,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Missile (EMMI Speedzone)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "dairon",
-                                "x": 0,
-                                "y": 0
+                                "x": 761,
+                                "y": 407
                             }
                         ],
                         "sections": [
@@ -346,15 +346,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Energy Part (Central Unit Access)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "dairon",
-                                "x": 0,
-                                "y": 0
+                                "x": 579,
+                                "y": 675
                             }
                         ],
                         "sections": [
@@ -365,15 +365,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Missile+ (Lower EMMI Zone Access)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "dairon",
-                                "x": 0,
-                                "y": 0
+                                "x": 7784,
+                                "y": 551
                             }
                         ],
                         "sections": [
@@ -384,15 +384,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Power Bomb Tank (Storm Corner)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "dairon",
-                                "x": 0,
-                                "y": 0
+                                "x": 995,
+                                "y": 561
                             }
                         ],
                         "sections": [
@@ -403,15 +403,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Missile (Cross Bomb Puzzle)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "dairon",
-                                "x": 0,
-                                "y": 0
+                                "x": 1035,
+                                "y": 223
                             }
                         ],
                         "sections": [
@@ -422,15 +422,15 @@
                         ]
                     },
                     {
-                        "name": "Template",
+                        "name": "Energy Part (Yellow EMMI Intro)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "dairon",
-                                "x": 0,
-                                "y": 0
+                                "x": 1284,
+                                "y": 180
                             }
                         ],
                         "sections": [
