@@ -13,7 +13,7 @@
     },
     {
         "name": "cataris",
-        "location_size": 35,
+        "location_size": 25,
         "location_border_thickness": 5,
         "img": "images/map_cataris.png"
     },
@@ -31,8 +31,8 @@
     },
     {
         "name": "ferenia",
-        "location_size": 35,
-        "location_border_thickness": 5,
+        "location_size": 25,
+        "location_border_thickness": 4,
         "img": "images/map_ferenia.png"
     },
     {

@@ -16,7 +16,7 @@
                         "map_locations": [
                             {
                                 "map": "ferenia",
-                                "x": 633,
+                                "x": 595,
                                 "y": 329
                             }
                         ],
@@ -35,7 +35,7 @@
                         "map_locations": [
                             {
                                 "map": "ferenia",
-                                "x": 1620,
+                                "x": 1580,
                                 "y": 633
                             }
                         ],
@@ -54,7 +54,7 @@
                         "map_locations": [
                             {
                                 "map": "ferenia",
-                                "x": 1804,
+                                "x": 1765,
                                 "y": 249
                             }
                         ],
@@ -74,15 +74,262 @@
                 "chest_opened_img": "images/minor_opened.png",
                 "children": [
                     {
-                        "name": "Template",
+                        "name": "Energy Part (Quiet Robe Entrance)",
                         "access_rules": [
 
                         ],
                         "map_locations": [
                             {
                                 "map": "ferenia",
-                                "x": 0,
-                                "y": 0
+                                "x": 1124,
+                                "y": 731
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Power Bomb Tank (Above Quiet Robe Funnel)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ferenia",
+                                "x": 874,
+                                "y": 664
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile+ (Ball Spark Shelf)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ferenia",
+                                "x": 639,
+                                "y": 700
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile+ (Above Space Jump)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ferenia",
+                                "x": 514,
+                                "y": 233
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Tunnel To Space Jump)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ferenia",
+                                "x": 622,
+                                "y": 631
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Secluded Slope)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ferenia",
+                                "x": 408,
+                                "y": 361
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Cross Bomb Hideaway)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ferenia",
+                                "x": 511,
+                                "y": 467
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Part (West Hub)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ferenia",
+                                "x": 400,
+                                "y": 542
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Cyan Teleportal)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ferenia",
+                                "x": 570,
+                                "y": 481
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Power Bomb Tank (Central Hub)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ferenia",
+                                "x": 872,
+                                "y": 347
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Storm Cellar Entrance)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ferenia",
+                                "x": 1574,
+                                "y": 583
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Escue Eyedoor)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ferenia",
+                                "x": 1690,
+                                "y": 535
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Cold Spark Tunnel)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ferenia",
+                                "x": 1239,
+                                "y": 334
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Part (Screw Ceiling)",
+                        "access_rules": [
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ferenia",
+                                "x": 1151,
+                                "y": 382
                             }
                         ],
                         "sections": [
