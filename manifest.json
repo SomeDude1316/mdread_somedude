@@ -2,7 +2,7 @@
   "name": "Metroid Dread Map Tracker",
   "game_name": "Metroid Dread Randomizer",
   "platform": "switch",
-  "package_version": "0.1.0",
+  "package_version": "0.5.0",
   "package_uid": "mdread_somedude",
   "author": "SomeDude",
   "variants": {
