@@ -14,10 +14,10 @@
                         "item_margin": "6,1",
                         "h_alignment": "left",
                         "rows": [
-                            ["charge", "anybeam", "anysuit", "anymissile", "storm"],
-                            ["anyjump", "morph", "bomb", "cross", "pb"],
-                            ["slide", "spider", "grapple", "speed", "screw"],
-                            ["", "cloak", "flash", "radar", ""]
+                            [ "charge",  "anybeam", "anysuit", "anymissile", "storm" ],
+                            [ "anyjump", "morph",   "bomb",    "cross",      "pb"    ],
+                            [ "slide",   "spider",  "grapple", "speed",      "screw" ],
+                            [ "",        "cloak",   "flash",   "radar",      ""      ]
                         ]
                     },
                     {
@@ -32,10 +32,10 @@
                                 "item_margin": "2,0",
                                 "h_alignment": "center",
                                 "rows": [
-                                    [ "white", "green", "yellow" ],
-                                    [ "blue", "purple", "red" ],
-                                    [ "qr", "x" ],
-                                    [ "etank","epart" ]
+                                    [ "white", "green",  "yellow" ],
+                                    [ "blue",  "purple", "red"    ],
+                                    [         "qr",   "x"         ],
+                                    [       "etank", "epart"      ]
                                 ]
                             }
                         ]
@@ -43,6 +43,20 @@
                 ]
             }
         ]
+    },
+        "tracker_capture_item": {
+        "type": "container",
+        "content": {
+            "type": "itemgrid",
+            "item_margin": "6,1",
+            "h_alignment": "left",
+            "rows": [
+                [ "charge", "wide",  "super",  "storm", "grapple" ],
+                [ "varia",  "morph", "bomb",   "cross", "pb"      ],
+                [ "slide",  "space", "spider", "speed", "screw"   ],
+                [ "cloak",  "flash", "radar",  "etank", "epart"   ]
+            ]
+        }
     },
     "tracker_default": {
         "type": "container",
