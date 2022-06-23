@@ -21,7 +21,7 @@ Formal releases will be added once the tracker is in a functional state. For now
 
  - Logic for each item location
  - Support for capturing items that can be visible but unobtainable and items that can require risking a softlock to obtain
- - Finalized replacemenmt of placeholder images and assets
+ - Replacement of placeholder images and assets
 
 ## Long-Term Features
 
