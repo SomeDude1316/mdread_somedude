@@ -2,8 +2,8 @@
     {
         "name": "reqs",
         "sections": [
-            //Artaria
-            {
+            // Artaria
+            { // Red Teleportal to Cataris
                 "name": "red tp to cat",
                 "access_rules": [
                     //Not much needed here
@@ -11,17 +11,17 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // Grapple Room
                 "name": "grapple",
                 "access_rules": [
                     //From Artaria
                     "speed",
                     //From Dairon
-                    "@can/early grapple"
+                    "@reqs/early grapple"
                 ],
                 "item_count": 1
             },
-            {
+            { // Screw Alley
                 "name": "screw alley",
                 "access_rules": [
                     //Dev Intended - Blue Teleportal
@@ -37,7 +37,7 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // Varia Access
                 "name": "varia run",
                 "access_rules": [
                     //Getting in and out of Varia area
@@ -45,7 +45,7 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // East Artaria
                 "name": "east artaria",
                 "access_rules": [
                     //Getting in and out of Varia area
@@ -54,8 +54,8 @@
                 "item_count": 1
             },
 
-            //Burenia
-            {
+            // Burenia
+            { // Upper Burenia
                 "name": "upper burenia",
                 "access_rules": [
                     //Dev Intended - Quiet Robe
@@ -67,7 +67,7 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // Lower Burenia
                 "name": "lower burenia",
                 "access_rules": [
                     //Dev Intended - with grapple
@@ -79,7 +79,7 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // Open Gravity Tower
                 "name": "open grav tower",
                 "access_rules": [
                     //Dev Intended
@@ -87,7 +87,7 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // Climb Gravity Tower
                 "name": "climb grav tower",
                 "access_rules": [
                     //Dev Intended - from Lower Burenia
@@ -98,7 +98,7 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // Cyan Teleportal to Ferenia
                 "name": "cyan tp to fer",
                 "access_rules": [
                     "@can/open_diffblobs,storm,@can/anybomb"
@@ -106,8 +106,8 @@
                 "item_count": 1
             },
 
-            //Cataris
-            {
+            // Cataris
+            { // Blue Teleportal to Artaria
                 "name": "blue tp to art",
                 "access_rules": [
                     //Dev Intended
@@ -119,7 +119,7 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // Red Teleportal to Artaria
                 "name": "red tp to art",
                 "access_rules": [
                     //Still not much needed
@@ -127,7 +127,7 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // Purple Teleportal to Dairon
                 "name": "purple tp to dai",
                 "access_rules": [
                     //Dev Intended - From Kraid
@@ -139,7 +139,7 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // Orange Teleportal to Ghavoran
                 "name": "orange tp to ghav",
                 "access_rules": [
                     //Dev Intended - Also open the Ghav charge door
@@ -156,8 +156,8 @@
                 "item_count": 1
             },
 
-            //Dairon
-            {
+            // Dairon
+            { // Early Grapple
                 "name": "early grapple",
                 "access_rules": [
                     //Early grapple
@@ -165,7 +165,7 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // Yellow Teleportal to Artaria
                 "name": "yellow tp to art",
                 "access_rules": [
                     //Dev Intended - Useless without Wide Beam
@@ -173,7 +173,7 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // Purple Teleportal to Cataris
                 "name": "purple tp to cat",
                 "access_rules": [
                     //Diffusion/Varia
@@ -187,8 +187,8 @@
                 ],
                 "item_count": 1
             },
-            {
-                "name": "elevator dai to ghav",
+            { // Cataris -> Ghavoran Transport
+                "name": "transport dai to ghav",
                 "access_rules": [
                     //Dev Intended
                     "$canColdRun|4,speed"
@@ -196,8 +196,8 @@
                 "item_count": 1
             },
             
-            //Elun
-            {
+            // Elun
+            { // Access Elun
                 "name": "elun",
                 "access_rules": [
                     //Power Bomb
@@ -205,7 +205,7 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // Release X
                 "name": "release x",
                 "access_rules": [
                     //Dev Intended
@@ -216,8 +216,8 @@
                 "item_count": 1
             },
             
-            //Ferenia
-            {
+            // Ferenia
+            { // Front of Quiet Robe
                 "name": "quiet robe entrance",
                 "access_rules": [
                     //Dev Intended - From Dairon
@@ -227,7 +227,7 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // Back of Quiet Robe
                 "name": "quiet robe exit",
                 "access_rules": [
                     //Dev Intended - Return to Dairon
@@ -239,7 +239,7 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // Cyan Teleportal to Burenia
                 "name": "cyan tp to bur",
                 "access_rules": [
                     //Power Bomb
@@ -247,8 +247,8 @@
                 ],
                 "item_count": 1
             },
-            {
-                "name": "storm shed",
+            { // Storm Cellar
+                "name": "storm cellar",
                 "access_rules": [
                     //Dev Intended - EMMI zone, Storms needed to exit
                     "@can/anybomb,storm",
@@ -258,8 +258,8 @@
                 "item_count": 1
             },
 
-            //Ghavoran
-            {
+            // Ghavoran
+            { // Orange Teleportal to Cataris
                 "name": "orange tp to cat",
                 "access_rules": [
                     //No intended method
@@ -270,7 +270,7 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // Green Teleportal to Burenia
                 "name":"green tp to bur",
                 "access_rules": [
                     //Dev Intended
@@ -288,8 +288,8 @@
                 "item_count": 1
             },
             
-            //Hanubia
-            {
+            // Hanubia
+            { // Access Hanubia
                 "name": "hanubia",
                 "access_rules": [
                     //Dev Intended - Golzuna
@@ -305,7 +305,7 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // Access Upper Hanubia
                 "name": "golden chozo",
                 "access_rules": [
                     //Assume Hanubia locks are in place (can make a setting about this later)

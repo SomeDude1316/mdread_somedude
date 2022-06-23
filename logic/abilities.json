@@ -1,23 +1,23 @@
 [
-    {
+    { // Ability Checks
         "name": "can",
         "sections": [
-            //Bomb abilities
-            {
+            // Bomb abilities
+            { // Lay a bomb
                 "name": "bomb",
                 "access_rules": [
                     "morph,regbomb"
                 ],
                 "item_count": 1
             },
-            {
+            { // Lay a Power Bomb
                 "name": "pb",
                 "access_rules": [
                     "morph,pb"
                 ],
                 "item_count": 1
             },
-            {
+            { // Lay any bomb
                 "name": "anybomb",
                 "access_rules": [
                     "morph,anybomb"
@@ -26,7 +26,7 @@
             },
 
             //Vertical traversal
-            {
+            { // Infinite Height
                 "name": "fly",
                 "access_rules": [
                     "@can/bomb",
@@ -34,7 +34,7 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // Single Wall Jump (Includes flight)
                 "name": "climb",
                 "access_rules": [
                     "@can/fly",
@@ -43,7 +43,7 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // Short vertical distance (Includes above)
                 "name": "reach",
                 "access_rules": [
                     "@can/climb",
@@ -51,7 +51,7 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // Short vertical distance without wall (i.e. Fly or Spin Boost)
                 "name": "reach_nowall",
                 "access_rules": [
                     "@can/fly",
@@ -61,7 +61,7 @@
             },
 
             //Magnet usage
-            {
+            { // Spider Magnet or Grapple Beam
                 "name": "usemagnets",
                 "access_rules": [
                     "spider",
@@ -69,7 +69,7 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // Climb a magnet wall (Magnet usage or SWJ)
                 "name": "magclimb",
                 "access_rules": [
                     "@can/climb",
@@ -79,14 +79,14 @@
             },
 
             //Doors and blobs
-            {
+            { // Break Super Missile Covers
                 "name": "open_greendoors",
                 "access_rules": [
                     "anymissile"
                 ],
                 "item_count": 1
             },
-            {
+            { // Open Charge Doors
                 "name": "open_chargedoors",
                 "access_rules": [
                     "anycharge",
@@ -94,29 +94,45 @@
                 ],
                 "item_count": 1
             },
-            {
+            { // Open Wide Beam Doors
                 "name": "open_widedoors",
                 "access_rules": [
                     "anybeam"
                 ],
                 "item_count": 1
             },
-            {
+            { // Push Wide Blocks
                 "name": "open_wideblocks",
                 "access_rules": [
                     "anycharge,anybeam"
                 ],
                 "item_count": 1
             },
-            {
-                "name": "open_diffblobs",
+            { // Open Plasma Doors
+                "name": "open_plasmadoors",
                 "access_rules": [
-                    "diffusion",
+                    "plasma",
                     "wave"
                 ],
                 "item_count": 1
             },
-            {
+            { // Open Wave Doors
+                "name": "open_wideblocks",
+                "access_rules": [
+                    "wave"
+                ],
+                "item_count": 1
+            },
+            { // Break Diffusion Blobs
+                "name": "open_diffblobs",
+                "access_rules": [
+                    "diffusion",
+                    "wave",
+                    "@can/pb"
+                ],
+                "item_count": 1
+            },
+            { // Break Enky
                 "name": "open_enky",
                 "access_rules": [
                     "ice",
@@ -126,21 +142,21 @@
             },
 
             //Speed Shenanigans
-            {
+            { // Short Boost
                 "name": "shortboost",
                 "access_rules": [
                     "speed,flash"
                 ],
                 "item_count": 1
             },
-            {
+            { // Aim Down Clip
                 "name": "adc",
                 "access_rules": [
-                    "speed,flash,grapple"
+                    "speed,flash,grapple,slide"
                 ],
                 "item_count": 1
             },
-            {
+            { // Ballspark
                 "name": "ballspark",
                 "access_rules": [
                     "speed,morph"
@@ -149,14 +165,14 @@
             },
 
             //Water abilities
-            {
+            { // Water Bomb Jump
                 "name": "wbj",
                 "access_rules": [
-                    "morph,bomb"
+                    "@can/bomb"
                 ],
                 "item_count": 1
             },
-            {
+            { //Water Space Jump
                 "name": "wsj",
                 "access_rules": [
                     "space"
@@ -165,18 +181,18 @@
             }
         ]
     },
-    {
+    { // World Events
         "name": "event",
         "sections": [
             //World events
-            {
+            { // Quiet Robe Sequence
                 "name": "qr",
                 "access_rules": [
                     "qr"
                 ],
                 "item_count": 1
             },
-            {
+            { // Release the X
                 "name": "x",
                 "access_rules": [
                     "x"
