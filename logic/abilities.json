@@ -34,6 +34,14 @@
                 ],
                 "item_count": 1
             },
+            { // Infinite Height plus Speed Booster
+                "name": "fly or spark",
+                "access_rules": [
+                    "@can/fly",
+                    "speed"
+                ],
+                "item_count": 1
+            },
             { // Single Wall Jump (Includes flight)
                 "name": "climb",
                 "access_rules": [
